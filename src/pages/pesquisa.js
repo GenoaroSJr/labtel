@@ -7,16 +7,23 @@ const Pesquisa = ({ en }) => (
 		<Card />
 		<Row>
 			<Col md={12} style={{ textAlign: 'justify' }}>
-				<h3>Óptica Integrada:</h3>
+				<h3>{en ? 'Integrated Optics:' : 'Óptica Integrada:'}</h3>
 				<p>
-					Nesta linha de pesquisa focamos nossos trabalhos na chamada "Fotônica
-					do Silício" (Silicon Photonics), ou mais especificamente,
-					"Nanofotônica do Silício", que além de ser um campo emergente de
-					pesquisa e tecnologia é uma realidade de inovação presente em novos
-					produtos. Nossos estudos incluem avanços em nano-dispositivos de
-					silício ou nitreto de silício, tais como: guias de onda, ressonadores
-					ópticos e acopladores baseados grades de Bragg. Dentro desta linha,
-					destacam-se as simulações computacionais em:
+					{en ? (
+						<>
+						aa
+						</>
+					) : (
+						<>
+						Nesta linha de pesquisa focamos nossos trabalhos na chamada "Fotônica
+						do Silício" (Silicon Photonics), ou mais especificamente,
+						"Nanofotônica do Silício", que além de ser um campo emergente de
+						pesquisa e tecnologia é uma realidade de inovação presente em novos
+						produtos. Nossos estudos incluem avanços em nano-dispositivos de
+						silício ou nitreto de silício, tais como: guias de onda, ressonadores
+						ópticos e acopladores baseados grades de Bragg. Dentro desta linha,
+						destacam-se as simulações computacionais em:
+					</>)}
 				</p>
 			</Col>
 		</Row>
