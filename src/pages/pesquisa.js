@@ -133,9 +133,9 @@ const Pesquisa = ({ en }) => (
 			</Col>
 		</Row>
 		<hr />
-		{/*PAREI AQUIII, CONTINUAR!!!*/}
-		<div class="row">
-			<div class="col-md-12 text-justify">
+
+		<Row>
+			<Col md={12} style={{ textAlign: 'justify' }}>
 				<h3>Antenas e Propagação:</h3>
 				<p>
 					Nesta linha de pesquisa o foco é na investigação teórica e prática de
@@ -146,48 +146,51 @@ const Pesquisa = ({ en }) => (
 					freqüências.Dentro desta linha, destacam-se as simulações e
 					experimentos em:
 				</p>
+			</Col>
+		</Row>
+		<Row>
+			<Col md={6} style={{ paddingTop: '2%' }}>
+				<h4> Transferência de energia sem fios:</h4>
+				<p>
+					{' '}
+					Sabe-se que a eficiência na transmissão de energia sem fios está
+					diretamente relacionada com a distância de separação entre o
+					dispositivo transmissor e receptor. Ademais, a transferência de
+					energia é extremamente sensível à frequência de ressonância de
+					operação do sistema. Assim, buscamos desenvolver analítica, numérica,
+					e experimentalmente dispositivos para transferência de energia sem
+					fios, auto-sintonizáveis, capazes de operar sempre no ponto de máxima
+					eficiência.
+				</p>
+			</Col>
 
-				<div class="col-md-6" style={{ paddingTop: '2%' }}>
-					<h4> Transferência de energia sem fios:</h4>
-					<p>
-						{' '}
-						Sabe-se que a eficiência na transmissão de energia sem fios está
-						diretamente relacionada com a distância de separação entre o
-						dispositivo transmissor e receptor. Ademais, a transferência de
-						energia é extremamente sensível à frequência de ressonância de
-						operação do sistema. Assim, buscamos desenvolver analítica,
-						numérica, e experimentalmente dispositivos para transferência de
-						energia sem fios, auto-sintonizáveis, capazes de operar sempre no
-						ponto de máxima eficiência.
-					</p>
-				</div>
+			<Col md={6} style={{ paddingTop: '2%' }}>
+				<Image fluid src={require('../imagens/imagemAntenaSemfio.jpg')} />
+			</Col>
+		</Row>
+		<Row>
+			<Col md={6} style={{ paddingTop: '1%' }}>
+				<Image fluid src={require('../imagens/imagemAntenaBanda2.jpg')} />
+			</Col>
 
-				<div class="col-md-6" style={{ paddingTop: '2%' }}>
-					<Image fluid src={require('../imagens/imagemAntenaSemfio.jpg')} />
-				</div>
-
-				<div class="col-md-6" style={{ paddingTop: '1%' }}>
-					<Image fluid src={require('../imagens/imagemAntenaBanda2.jpg')} />
-				</div>
-
-				<div class="col-md-6" style={{ paddingTop: '4%' }}>
-					<h4>Antenas banda-larga assistidas por lentes:</h4>
-					<p>
-						{' '}
-						A proposição inicial é investigar, por meio de simulações numéricas
-						e experimentos práticos, novos arranjos geométricos de antenas
-						banda-larga assistidos por lentes dielétricas. Busca-se, assim,
-						desenvolver novas soluções para os atuais gargalos existentes em
-						sistemas de comunicação sem fio, projetando antenas com alto ganho,
-						e ainda assim, operando em uma larga faixa do espectro. Estas novas
-						antenas serão projetadas juntamente com uma lente dielétrica para
-						operar na faixa de UHF (0,3GHz), até o início da faixa de TeraHertz
-						(300GHz).
-					</p>
-				</div>
-			</div>
-
-			<div class="col-md-6 text-justify" style={{ paddingTop: '4%' }}>
+			<Col md={6} style={{ paddingTop: '4%' }}>
+				<h4>Antenas banda-larga assistidas por lentes:</h4>
+				<p>
+					{' '}
+					A proposição inicial é investigar, por meio de simulações numéricas e
+					experimentos práticos, novos arranjos geométricos de antenas
+					banda-larga assistidos por lentes dielétricas. Busca-se, assim,
+					desenvolver novas soluções para os atuais gargalos existentes em
+					sistemas de comunicação sem fio, projetando antenas com alto ganho, e
+					ainda assim, operando em uma larga faixa do espectro. Estas novas
+					antenas serão projetadas juntamente com uma lente dielétrica para
+					operar na faixa de UHF (0,3GHz), até o início da faixa de TeraHertz
+					(300GHz).
+				</p>
+			</Col>
+		</Row>
+		<Row>
+			<Col md={6} style={{ paddingTop: '4%', textAlign: 'justify' }}>
 				<h4>Antenas opticamente controladas:</h4>
 				<p>
 					Nesta aplicação, busca-se desenvolver antenas que apresentem padrões
@@ -200,77 +203,75 @@ const Pesquisa = ({ en }) => (
 					rápida. Este projeto é desenvolvido em parceria com o grupo{' '}
 					<a href="http://www.inatel.br/woca/">WOCA</a> do INATEL{' '}
 				</p>
-			</div>
+			</Col>
 
-			<div class="col-md-6" style={{ paddingTop: '1%' }}>
+			<Col md={6} style={{ paddingTop: '1%' }}>
 				<Image fluid src={require('../imagens/imagemAntenaControlada.jpg')} />
-			</div>
-		</div>
+			</Col>
+		</Row>
 		<hr />
-		<div class="row">
-			<div class="col-md-12 text-justify">
+		<Row>
+			<Col class="col-md-12 text-justify">
 				<h3>
 					<font color="red">
 						<b>NEW</b>
 					</font>{' '}
 					Redes de Telecomunicações
 				</h3>
+			</Col>
+		</Row>
+		<Row>
+			<Col md={6} style={{ paddingTop: '2%' }}>
+				<p>
+					O rápido crescimento das tecnologias de informação e de comunicação
+					tem causado um aumento considerável do consumo de energia. Assim, a
+					redução dos gastos energéticos em redes de telecomunicações tem se
+					tornado uma das questões a serem solucionadas. Dessa forma, tem-se
+					desenvolvido técnicas e algoritmos capazes de reduzir estes gastos
+					energéticos nas redes telecom, especificamente, nas denominadas redes
+					ópticas elásticas (EON- Elastic Optical Network). Portanto, nesta
+					linha de pesquisa, busca-se desenvolver técnicas inteligentes, capazes
+					de melhorar a eficiência energética em redes óptcas.
+				</p>
+			</Col>
 
-				<div class="col-md-6" style={{ paddingTop: '2%' }}>
-					<p>
-						O rápido crescimento das tecnologias de informação e de comunicação
-						tem causado um aumento considerável do consumo de energia. Assim, a
-						redução dos gastos energéticos em redes de telecomunicações tem se
-						tornado uma das questões a serem solucionadas. Dessa forma, tem-se
-						desenvolvido técnicas e algoritmos capazes de reduzir estes gastos
-						energéticos nas redes telecom, especificamente, nas denominadas
-						redes ópticas elásticas (EON- Elastic Optical Network). Portanto,
-						nesta linha de pesquisa, busca-se desenvolver técnicas inteligentes,
-						capazes de melhorar a eficiência energética em redes óptcas.
-					</p>
-				</div>
-
-				<div class="col-md-6" style={{ paddingTop: '1%' }}>
-					<img
-						class="img-responsive"
-						src={require('../imagens/imagemRedeTelecom.jpg')}
-						alt=""
-					/>
-				</div>
-			</div>
-		</div>
+			<Col md={6} style={{ paddingTop: '1%' }}>
+				<Image fluid src={require('../imagens/imagemRedeTelecom.jpg')} />
+			</Col>
+		</Row>
 		<hr />
-		<div class="row">
-			<div class="col-md-12 text-justify">
+		<Row>
+			<Col md={12} style={{ textAlign: 'justify' }}>
 				<h3>
 					<font color="red">
 						<b>NEW</b>
 					</font>{' '}
 					Dispositivos em Terahertz
 				</h3>
+			</Col>
+		</Row>
+		<Row>
+			<Col md={6} style={{ paddingTop: '2%' }}>
+				<p>
+					Modelagem do efeito eletro-óptico em dispositivos LID, para aplicações
+					em moduladores que operam na faixa dos THz. O objetivo deste projeto é
+					desenvolver um modulador eletro-óptico aplicando a técnica de
+					confinamento da onda eletromagnética no meio com menor índice de
+					refração, através da descontinuidade na interface entre os meios, tal
+					como ocorre nos dispositivos conhecidos como LIDs. Para tanto,
+					investiga-se o efeito eletro-óptico em cristais anisotrópicos
+					pertencentes a esta categoria de dispositivos ópticos.
+				</p>
+			</Col>
 
-				<div class="col-md-6" style={{ paddingTop: '2%' }}>
-					<p>
-						Modelagem do efeito eletro-óptico em dispositivos LID, para
-						aplicações em moduladores que operam na faixa dos THz. O objetivo
-						deste projeto é desenvolver um modulador eletro-óptico aplicando a
-						técnica de confinamento da onda eletromagnética no meio com menor
-						índice de refração, através da descontinuidade na interface entre os
-						meios, tal como ocorre nos dispositivos conhecidos como LIDs. Para
-						tanto, investiga-se o efeito eletro-óptico em cristais anisotrópicos
-						pertencentes a esta categoria de dispositivos ópticos.
-					</p>
-				</div>
-
-				<div class="col-md-6">
-					<Image
-						fluid
-						src={require('../imagens/imagemTera.jpg')}
-						style={{ width: '80%', paddingLeft: '20' }}
-					/>
-				</div>
-			</div>
-		</div>
+			<Col md={6}>
+				<Image
+					fluid
+					src={require('../imagens/imagemTera.jpg')}
+					style={{ width: '80%', paddingLeft: '20' }}
+				/>
+			</Col>
+		</Row>
 	</Container>
 )
 

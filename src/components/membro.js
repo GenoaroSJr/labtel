@@ -2,7 +2,7 @@ import React from 'react'
 import { Row, Col, Image, Card } from 'react-bootstrap'
 
 const Membro = ({ nome, titulo, texto, link, img }) => (
-	<Card style={{marginTop: 20}}>
+	<Card style={{ marginTop: 20 }}>
 		<Row>
 			<Col md="auto">
 				<Image style={{ paddingLeft: 30, paddingTop: 30 }} src={img} />

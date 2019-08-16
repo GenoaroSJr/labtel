@@ -13,32 +13,33 @@ const Equipe = ({ en }) => (
 			<Col md={8} align="center">
 				<Image fluid src={require('../imagens/imagemGrupo2.jpg')} />
 			</Col>
+			<Col>
+				<ListGroup variant="flush">
+					<ListGroup.Item action href="#professores">
+						Professores
+					</ListGroup.Item>
 
-			<ListGroup variant="flush">
-				<ListGroup.Item action href="#professores">
-					Professores
-				</ListGroup.Item>
+					<ListGroup.Item action href="#posDoutorado">
+						Pós-Doutorado
+					</ListGroup.Item>
 
-				<ListGroup.Item action href="#posDoutorado">
-					Pós-Doutorado
-				</ListGroup.Item>
+					<ListGroup.Item action href="#doutourando">
+						Doutorando
+					</ListGroup.Item>
 
-				<ListGroup.Item action href="#doutourando">
-					Doutorando
-				</ListGroup.Item>
+					<ListGroup.Item action href="#mestrando">
+						Mestrando
+					</ListGroup.Item>
 
-				<ListGroup.Item action href="#mestrando">
-					Mestrando
-				</ListGroup.Item>
+					<ListGroup.Item action href="#graduando">
+						Graduando
+					</ListGroup.Item>
 
-				<ListGroup.Item action href="#graduando">
-					Graduando
-				</ListGroup.Item>
-
-				<ListGroup.Item action href="#antigosMembros">
-					Membros Antigos
-				</ListGroup.Item>
-			</ListGroup>
+					<ListGroup.Item action href="#antigosMembros">
+						Membros Antigos
+					</ListGroup.Item>
+				</ListGroup>
+			</Col>
 		</Row>
 
 		<div name="professores" id="professores" style={{ marginTop: 30 }}>
