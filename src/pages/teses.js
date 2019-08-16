@@ -5,11 +5,11 @@ const Teses = ({ en }) => (
 	<Container style={{ marginTop: 20 }}>
 		<h1>{en ? 'Theses and Dissertations' : 'Teses e Dissertações'}</h1>
 		<Card />
-		<h2 style={{ marginTop: 40 }}>Em andamento</h2>
+		<h2 style={{ marginTop: 40 }}>{en ? 'In Progress' : 'Em andamento'}</h2>
 		<Card style={{ marginBottom: 20 }} />
 		<Card>
 			<Card.Body>
-				<h4> Teses </h4>
+				<h4> {en ? 'Theses' : 'Teses'} </h4>
 
 				<ul>
 					<li style={{ marginBottom: 15, textAlign: 'justify' }}>
@@ -37,27 +37,17 @@ const Teses = ({ en }) => (
 					</li>
 
 					<li style={{ marginBottom: 15, textAlign: 'justify' }}>
-						{' '}
 						Daniely Gomes Silva. Otimizaçãonumérica aplicada à transformada
 						óptica para obtenção de mapeamentoquase-conforme em mantos de
 						invisibilidade tri-dimensionais. Início: 2015. Tese(Doutorado em
 						Engenharia Elétrica) - Universidade Federal de Itajubá,Coordenação
 						de Aperfeiçoamento de Pessoal de Nível Superior.
 					</li>
-
-					<li style={{ marginBottom: 15, textAlign: 'justify' }}>
-						Décio Renno. Sistema de Rastreamento e Direcionamento de Sinais para
-						Sistemas 5G e IoT. Início: 2017 . Tese (Doutorado em Engenharia
-						Elétrica) - Universidade Federal de Itajubá, Conselho Nacional de
-						Desenvolvimento Científico e Tecnológico. Orientador: Danilo
-						Henrique Spadoti.
-					</li>
 				</ul>
 
-				<h4> Dissertações </h4>
+				<h4> {en ? 'Dissertations' : 'Dissertações'} </h4>
 				<ul>
 					<li style={{ marginBottom: 15, textAlign: 'justify' }}>
-						{' '}
 						Denis Varise Bernardes. Otimização dos modos de operação do sistema
 						de aquisição do instrumento SPARC4. Início: 2018 - Universidade
 						Federal de Itajubá,Coordenação de Aperfeiçoamento de Pessoal de
@@ -67,12 +57,20 @@ const Teses = ({ en }) => (
 			</Card.Body>
 		</Card>
 
-		<h2 style={{ marginTop: 40 }}>Finalizadas</h2>
+		<h2 style={{ marginTop: 40 }}>{en ? 'Finished' : 'Finalizadas'}</h2>
 		<Card style={{ marginBottom: 20 }} />
 		<Card>
 			<Card.Body>
-				<h4> Teses </h4>
+				<h4> {en ? 'Theses' : 'Teses'} </h4>
 				<ul>
+					<li style={{ marginBottom: 15, textAlign: 'justify' }}>
+						Décio Renno. Sistema de Rastreamento e Direcionamento de Sinais para
+						Sistemas 5G e IoT. Início: 2017 . Tese (Doutorado em Engenharia
+						Elétrica) - Universidade Federal de Itajubá, Conselho Nacional de
+						Desenvolvimento Científico e Tecnológico. Orientador: Danilo
+						Henrique Spadoti.
+					</li>
+
 					<li style={{ marginBottom: 15, textAlign: 'justify' }}>
 						Sabi Yari Moïse Bandiri. Desenvolvimento de técnicas de eficiência
 						energética para redes inteligentes e redes ópticas. Início: 2015.
@@ -81,7 +79,7 @@ const Teses = ({ en }) => (
 						Tecnológico. (Orientador).
 					</li>
 
-					<li class="PubliLista">
+					<li style={{ marginBottom: 15, textAlign: 'justify' }}>
 						Renan Alves dos Santos. Sistema irradiante faixa larga e
 						reconfigurável espacialmente. Início: 2016. Tese (Doutorado em
 						Engenharia Elétrica) - Universidade Federal de Itajubá,Coordenação
@@ -112,7 +110,7 @@ const Teses = ({ en }) => (
 					</li>
 				</ul>
 
-				<h4> Dissertações </h4>
+				<h4> {en ? 'Dissertations' : 'Dissertações'} </h4>
 				<ul>
 					<li style={{ marginBottom: 15, textAlign: 'justify' }}>
 						{' '}
