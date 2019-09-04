@@ -29,6 +29,9 @@ const MyNav = ({ func, en }) => (
 				<Nav.Link as={Link} to="/contato">
 					{en ? 'Contact' : 'Contato'}
 				</Nav.Link>
+				<Nav.Link as={Link} to="/workshop">
+					Workshop
+				</Nav.Link>
 			</Nav>
 			<img
 				onClick={func}

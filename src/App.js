@@ -8,6 +8,7 @@ import Equipe from './pages/equipe'
 import Pesquisa from './pages/pesquisa'
 import Teses from './pages/teses'
 import Publicacoes from './pages/publicacoes'
+import Workshop from './pages/workshop'
 
 class App extends React.Component {
 	state = {
@@ -61,6 +62,7 @@ class App extends React.Component {
 						path="/contato"
 						render={() => <Contato en={this.state.en} />}
 					/>
+					<Route path="/workshop" render={() => <Workshop en={this.state.en} />} />
 					<footer style={{ marginTop: 20, textAlign: 'center' }}>
 						<p>
 							<img
