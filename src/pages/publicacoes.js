@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Card } from 'react-bootstrap'
 
 const Publicacoes = ({ en }) => (
-	<Container style={{ marginTop: 20 }}>
+	<Container fluid style={{ marginTop: 20, padding:20 }}>
 		<h2>{en ? 'Publications' : 'Publicações'}</h2>
 		<Card />
 		<h2 style={{ marginTop: 40 }}>{en ? 'Books' : 'Livros'}</h2>

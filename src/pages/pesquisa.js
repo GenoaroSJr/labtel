@@ -1,13 +1,13 @@
-import React from "react";
-import { Container, Card, Row, Col, Image } from "react-bootstrap";
+import React from 'react';
+import { Container, Card, Row, Col, Image } from 'react-bootstrap';
 
 const Pesquisa = ({ en }) => (
-  <Container style={{ marginTop: 20 }}>
-    <h2>{en ? "Research Lines" : "Linhas de Pesquisa"}</h2>
+  <Container fluid style={{ marginTop: 20, padding: 20 }}>
+    <h2>{en ? 'Research Lines' : 'Linhas de Pesquisa'}</h2>
     <Card />
     <Row>
-      <Col md={12} style={{ textAlign: "justify" }}>
-        <h3>{en ? "Integrated Optics:" : "Óptica Integrada:"}</h3>
+      <Col md={12} style={{ textAlign: 'justify' }}>
+        <h3>{en ? 'Integrated Optics:' : 'Óptica Integrada:'}</h3>
         <p>
           {en ? (
             <>
@@ -37,11 +37,11 @@ const Pesquisa = ({ en }) => (
       </Col>
     </Row>
     <Row>
-      <Col md={6} style={{ paddingTop: "2%" }}>
+      <Col md={6} style={{ paddingTop: '2%' }}>
         <h4>
           {en
-            ? "Optical Transform and Invisibility:"
-            : "Transformada Óptica e Invisibilidade:"}
+            ? 'Optical Transform and Invisibility:'
+            : 'Transformada Óptica e Invisibilidade:'}
         </h4>
         <p>
           {en ? (
@@ -69,10 +69,10 @@ const Pesquisa = ({ en }) => (
         </p>
       </Col>
 
-      <Col md={6} style={{ paddingTop: "2%" }}>
+      <Col md={6} style={{ paddingTop: '2%' }}>
         <Image
           fluid
-          src={require("../imagens/imagemOptica3.jpg")}
+          src={require('../imagens/imagemOptica3.jpg')}
           height="75%"
           width="75%"
           alt=""
@@ -81,14 +81,14 @@ const Pesquisa = ({ en }) => (
     </Row>
     <Row>
       <Col md={6}>
-        <Image fluid src={require("../imagens/imagemOptica2.jpg")} alt="" />
+        <Image fluid src={require('../imagens/imagemOptica2.jpg')} alt="" />
       </Col>
 
-      <Col md={6} style={{ paddingTop: "2%" }}>
+      <Col md={6} style={{ paddingTop: '2%' }}>
         <h4>
           {en
-            ? "Design and Modeling of Silicon Nano Grids:"
-            : "Design e Modelagem de Nano Grades de Silício:"}
+            ? 'Design and Modeling of Silicon Nano Grids:'
+            : 'Design e Modelagem de Nano Grades de Silício:'}
         </h4>
         <p>
           {en ? (
@@ -117,11 +117,11 @@ const Pesquisa = ({ en }) => (
     </Row>
     <hr />
     <Row>
-      <Col md={12} style={{ textAlign: "justify" }}>
+      <Col md={12} style={{ textAlign: 'justify' }}>
         <h3>
           {en
-            ? "Photonic Crystal Optical Fibers:"
-            : "Fibras Ópticas de Cristal Fotônico:"}
+            ? 'Photonic Crystal Optical Fibers:'
+            : 'Fibras Ópticas de Cristal Fotônico:'}
         </h3>
         <p>
           {en ? (
@@ -157,8 +157,8 @@ const Pesquisa = ({ en }) => (
       </Col>
     </Row>
     <Row>
-      <Col md={6} style={{ paddingTop: "2%" }}>
-        <h4>{en ? "Optical Sensing:" : "Sensoriamento Óptico:"}</h4>
+      <Col md={6} style={{ paddingTop: '2%' }}>
+        <h4>{en ? 'Optical Sensing:' : 'Sensoriamento Óptico:'}</h4>
         <p>
           {en ? (
             <>
@@ -192,7 +192,7 @@ const Pesquisa = ({ en }) => (
       <Col md={6}>
         <img
           class="img-responsive"
-          src={require("../imagens/imagemSensoriamentoOptico.jpg")}
+          src={require('../imagens/imagemSensoriamentoOptico.jpg')}
           alt=""
         />
       </Col>
@@ -201,16 +201,16 @@ const Pesquisa = ({ en }) => (
       <Col md={6}>
         <img
           class="img-responsive"
-          src={require("../imagens/imagemCompressaoDispersao.jpg")}
+          src={require('../imagens/imagemCompressaoDispersao.jpg')}
           alt=""
         />
       </Col>
 
-      <Col md={6} style={{ paddingTop: "2%" }}>
+      <Col md={6} style={{ paddingTop: '2%' }}>
         <h4>
           {en
-            ? "Design and Modeling of Silicon Nano Grids:"
-            : "Design e Modelagem de Nano Grades de Silício:"}
+            ? 'Design and Modeling of Silicon Nano Grids:'
+            : 'Design e Modelagem de Nano Grades de Silício:'}
         </h4>
         <p>
           {en ? (
@@ -240,8 +240,8 @@ const Pesquisa = ({ en }) => (
     <hr />
 
     <Row>
-      <Col md={12} style={{ textAlign: "justify" }}>
-        <h3>{en ? "Antennas and Propagation:" : "Antenas e Propagação:"}</h3>
+      <Col md={12} style={{ textAlign: 'justify' }}>
+        <h3>{en ? 'Antennas and Propagation:' : 'Antenas e Propagação:'}</h3>
         <p>
           {en ? (
             <>
@@ -268,11 +268,11 @@ const Pesquisa = ({ en }) => (
       </Col>
     </Row>
     <Row>
-      <Col md={6} style={{ paddingTop: "2%" }}>
+      <Col md={6} style={{ paddingTop: '2%' }}>
         <h4>
           {en
-            ? "Wireless power transfer:"
-            : "Transferência de energia sem fios:"}
+            ? 'Wireless power transfer:'
+            : 'Transferência de energia sem fios:'}
         </h4>
         <p>
           {en ? (
@@ -300,20 +300,20 @@ const Pesquisa = ({ en }) => (
         </p>
       </Col>
 
-      <Col md={6} style={{ paddingTop: "2%" }}>
-        <Image fluid src={require("../imagens/imagemAntenaSemfio.jpg")} />
+      <Col md={6} style={{ paddingTop: '2%' }}>
+        <Image fluid src={require('../imagens/imagemAntenaSemfio.jpg')} />
       </Col>
     </Row>
     <Row>
-      <Col md={6} style={{ paddingTop: "1%" }}>
-        <Image fluid src={require("../imagens/imagemAntenaBanda2.jpg")} />
+      <Col md={6} style={{ paddingTop: '1%' }}>
+        <Image fluid src={require('../imagens/imagemAntenaBanda2.jpg')} />
       </Col>
 
-      <Col md={6} style={{ paddingTop: "4%" }}>
+      <Col md={6} style={{ paddingTop: '4%' }}>
         <h4>
           {en
-            ? "Lens-assisted wide-band antennas:"
-            : "Antenas banda-larga assistidas por lentes:"}
+            ? 'Lens-assisted wide-band antennas:'
+            : 'Antenas banda-larga assistidas por lentes:'}
         </h4>
         <p>
           {en ? (
@@ -345,11 +345,11 @@ const Pesquisa = ({ en }) => (
       </Col>
     </Row>
     <Row>
-      <Col md={6} style={{ paddingTop: "4%", textAlign: "justify" }}>
+      <Col md={6} style={{ paddingTop: '4%', textAlign: 'justify' }}>
         <h4>
           {en
-            ? "Optically controlled antennas:"
-            : "Antenas opticamente controladas:"}
+            ? 'Optically controlled antennas:'
+            : 'Antenas opticamente controladas:'}
         </h4>
         <p>
           {en ? (
@@ -361,7 +361,7 @@ const Pesquisa = ({ en }) => (
               response and antenna radiation pattern. Therefore, we design and
               develop new antenna structures and arrangements, controlled
               optically by the optical switch, which responds extremely fast.
-              This project is developed in partnership with the{" "}
+              This project is developed in partnership with the{' '}
               <a href="http://www.inatel.br/woca/">WOCA</a> team from INATEL
             </>
           ) : (
@@ -374,15 +374,15 @@ const Pesquisa = ({ en }) => (
               projetamos e desenvolvemos novas estruturas e arranjos de antenas,
               controlados opticamente pela chave óptica, a qual apresenta
               resposta extremamente rápida. Este projeto é desenvolvido em
-              parceria com o grupo <a href="http://www.inatel.br/woca/">WOCA</a>{" "}
+              parceria com o grupo <a href="http://www.inatel.br/woca/">WOCA</a>{' '}
               do INATEL
             </>
           )}
         </p>
       </Col>
 
-      <Col md={6} style={{ paddingTop: "1%" }}>
-        <Image fluid src={require("../imagens/imagemAntenaControlada.jpg")} />
+      <Col md={6} style={{ paddingTop: '1%' }}>
+        <Image fluid src={require('../imagens/imagemAntenaControlada.jpg')} />
       </Col>
     </Row>
     <hr />
@@ -391,13 +391,13 @@ const Pesquisa = ({ en }) => (
         <h3>
           <font color="red">
             <b>NEW</b>
-          </font>{" "}
-          {en ? "Telecomunication Networks" : "Redes de Telecomunicações"}
+          </font>{' '}
+          {en ? 'Telecomunication Networks' : 'Redes de Telecomunicações'}
         </h3>
       </Col>
     </Row>
     <Row>
-      <Col md={6} style={{ paddingTop: "2%" }}>
+      <Col md={6} style={{ paddingTop: '2%' }}>
         <p>
           {en ? (
             <>
@@ -428,23 +428,23 @@ const Pesquisa = ({ en }) => (
         </p>
       </Col>
 
-      <Col md={6} style={{ paddingTop: "1%" }}>
-        <Image fluid src={require("../imagens/imagemRedeTelecom.jpg")} />
+      <Col md={6} style={{ paddingTop: '1%' }}>
+        <Image fluid src={require('../imagens/imagemRedeTelecom.jpg')} />
       </Col>
     </Row>
     <hr />
     <Row>
-      <Col md={12} style={{ textAlign: "justify" }}>
+      <Col md={12} style={{ textAlign: 'justify' }}>
         <h3>
           <font color="red">
             <b>NEW</b>
-          </font>{" "}
-          {en ? "Terahertz Devices" : "Dispositivos em Terahertz"}
+          </font>{' '}
+          {en ? 'Terahertz Devices' : 'Dispositivos em Terahertz'}
         </h3>
       </Col>
     </Row>
     <Row>
-      <Col md={6} style={{ paddingTop: "2%" }}>
+      <Col md={6} style={{ paddingTop: '2%' }}>
         <p>
           {en ? (
             <>
@@ -477,8 +477,8 @@ const Pesquisa = ({ en }) => (
       <Col md={6}>
         <Image
           fluid
-          src={require("../imagens/imagemTera.jpg")}
-          style={{ width: "80%", paddingLeft: "20" }}
+          src={require('../imagens/imagemTera.jpg')}
+          style={{ width: '80%', paddingLeft: '20' }}
         />
       </Col>
     </Row>

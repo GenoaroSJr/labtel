@@ -4,15 +4,15 @@ import { Redirect } from 'react-router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
 	faGraduationCap,
-	faUniversity
+	faUniversity,
+	faCog
 } from '@fortawesome/free-solid-svg-icons'
 
 class Home extends React.Component {
 	state = {}
 	render() {
 		const { en } = this.props
-		if (this.state.redirect === 'equipe') return <Redirect to="/equipe" />
-		if (this.state.redirect === 'pesquisa') return <Redirect to="/pesquisa" />
+		if (this.state.redirect !== undefined) return <Redirect to={this.state.redirect} />
 		return (
 			<Container fluid style={{ padding: 0 }}>
 				<div style={{ textAlign: 'center' }}>
@@ -83,7 +83,7 @@ class Home extends React.Component {
 					</Carousel.Item>
 				</Carousel>
 
-				<Container style={{ marginTop: 20 }}>
+				<Container fluid style={{ marginTop: 20, padding:20 }}>
 					<Row>
 						<Col>
 							<Card>
@@ -229,6 +229,26 @@ class Home extends React.Component {
 										variant="primary"
 										onClick={() => {
 											this.setState({ redirect: 'pesquisa' })
+										}}
+									>
+										{en ? 'Get more info' : 'Saiba Mais'}
+									</Button>
+								</Card.Body>
+							</Card>
+						</Col>
+					</Row>
+					<Row>
+						<Col>
+							<Card>
+								<Card.Header style={{marginTop: 20}}>
+									<FontAwesomeIcon icon={faCog}/>
+								 	{" Venha conhecer nosso workshop!"}
+								</Card.Header>
+								<Card.Body>
+								<Button
+										variant="primary"
+										onClick={() => {
+											this.setState({ redirect: 'workshop' })
 										}}
 									>
 										{en ? 'Get more info' : 'Saiba Mais'}
