@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Card, Row, Col, Image } from 'react-bootstrap';
 
 const Pesquisa = ({ en }) => (
-  <Container fluid style={{ marginTop: 20, padding: 20 }}>
+  <Container style={{ marginTop: 20, padding: 20 }}>
     <h2>{en ? 'Research Lines' : 'Linhas de Pesquisa'}</h2>
     <Card />
     <Row>

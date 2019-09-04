@@ -1,16 +1,16 @@
-import React from 'react';
-import { Container, Row, Col, Card, Image } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons';
+import React from "react";
+import { Container, Row, Col, Card, Image } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
 
 const Contato = ({ en }) => (
-  <Container fluid style={{ marginTop: 20, padding: 20 }}>
-    <h1>{en ? 'Contact' : 'Contato'}</h1>
+  <Container style={{ marginTop: 20, padding: 20 }}>
+    <h1>{en ? "Contact" : "Contato"}</h1>
     <Card />
 
-    <Row style={{ padding: '5%' }}>
+    <Row style={{ padding: "5%" }}>
       <Col>
-        <Image fluid src={require('../imagens/imagemUnifeiContato.jpg')} />
+        <Image fluid src={require("../imagens/imagemUnifeiContato.jpg")} />
       </Col>
       {en ? (
         <Col>

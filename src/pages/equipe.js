@@ -9,7 +9,7 @@ const Equipe = ({ en }) => (
     </h2>
     <Card style={{ marginBottom: 20 }} />
 
-    <Row>
+    <Row style={{width:'60%'}}>
       <Col md={8} align="center">
         <Image fluid src={require('../imagens/imagemGrupo2.jpg')} />
       </Col>
