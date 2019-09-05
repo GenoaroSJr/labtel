@@ -37,12 +37,12 @@ class Workshop extends React.Component {
         <h2>Dashboard</h2>
         <Card style={{ marginBottom: 30 }} />
         <Row>
-          <Col style={{ marginLeft: "28%" }}>
+          <Col style={{ marginLeft: "18%" }}>
             <Iframe
               url="https://admin.tago.io/public/dashboard/5d6d1a0eca5003001b180a54/cb4092f0-a1f2-47e1-a329-e1ae13bf4b23"
               height="900px"
               scrolling="no"
-              width="60%"
+              width="80%"
             />
           </Col>
         </Row>

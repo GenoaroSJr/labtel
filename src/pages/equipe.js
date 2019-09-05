@@ -1,17 +1,17 @@
-import React from 'react';
-import { Container, Row, Col, Image, Card, ListGroup } from 'react-bootstrap';
-import Membro from '../components/membro';
+import React from "react";
+import { Container, Row, Col, Image, Card, ListGroup } from "react-bootstrap";
+import Membro from "../components/membro";
 
 const Equipe = ({ en }) => (
   <Container fluid style={{ marginTop: 20, padding: 20 }}>
     <h2 style={{ marginTop: 15 }}>
-      {en ? 'Research Team' : 'Equipe de Pesquisadores'}
+      {en ? "Research Team" : "Equipe de Pesquisadores"}
     </h2>
     <Card style={{ marginBottom: 20 }} />
 
-    <Row style={{width:'60%'}}>
+    <Row style={{ width: "60%" }}>
       <Col md={8} align="center">
-        <Image fluid src={require('../imagens/imagemGrupo2.jpg')} />
+        <Image fluid src={require("../imagens/imagemGrupo2.jpg")} />
       </Col>
       <Col>
         <ListGroup variant="flush">
@@ -68,7 +68,7 @@ const Equipe = ({ en }) => (
 									principalmente, nos seguintes temas: comunicações ópticas,
 									fotônica, fibras ópticas de cristal fotônico e fotônica do silício"
         link="http://lattes.cnpq.br/8760117075106351"
-        img={require('../imagens/equipe/daniloImagem.jpg')}
+        img={require("../imagens/equipe/daniloImagem.jpg")}
       />
 
       <Membro
@@ -96,7 +96,7 @@ const Equipe = ({ en }) => (
 									principalmente nos seguintes temas:Microondas, Modulação
 									eletroóptica, Guias ópticos, Processamento de sinais ópticos."
         link="http://lattes.cnpq.br/9987344139958522"
-        img={require('../imagens/equipe/justinoImagem.jpg')}
+        img={require("../imagens/equipe/justinoImagem.jpg")}
       />
     </div>
 
@@ -124,7 +124,7 @@ const Equipe = ({ en }) => (
 									(html5, javascript, css3, php) e foco principal na pesquisa de
 									dispositivos para transferência de energia sem fios."
         link="http://lattes.cnpq.br/7672920933339124"
-        img={require('../imagens/equipe/reinaldoImagem.jpg')}
+        img={require("../imagens/equipe/reinaldoImagem.jpg")}
       />
     </div>
 
@@ -150,7 +150,7 @@ const Equipe = ({ en }) => (
 									Bradar Indústria S/A do grupo Embraer Defesa, onde participou
 									de projetos de pesquisa e desenvolvimento."
         link="http://lattes.cnpq.br/3831378780875013"
-        img={require('../imagens/equipe/andreiaImagem.jpg')}
+        img={require("../imagens/equipe/andreiaImagem.jpg")}
       />
 
       <Membro
@@ -168,7 +168,7 @@ const Equipe = ({ en }) => (
 									disciplinas tais como Fìsica I e II, Càlculo I e II e
 									Eletromagnetismo."
         link="http://lattes.cnpq.br/2539115151670208"
-        img={require('../imagens/equipe/lobaoImagem.png')}
+        img={require("../imagens/equipe/lobaoImagem.png")}
       />
 
       <Membro
@@ -181,7 +181,7 @@ const Equipe = ({ en }) => (
 									Telecomunicações e curso técnico-profissionalizante pela
 									Escola Técnica de Eletrônica Francisco Moreira da Costa."
         link="http://lattes.cnpq.br/4964865294025484"
-        img={require('../imagens/equipe/polianeImagem.png')}
+        img={require("../imagens/equipe/polianeImagem.png")}
       />
 
       <Membro
@@ -216,7 +216,7 @@ const Equipe = ({ en }) => (
 									prototipagem de guias de ondas em 3D obtidas a partir de
 									transformação óptica quase-conforme e otimização numérica."
         link="http://lattes.cnpq.br/7357330731419401"
-        img={require('../imagens/equipe/danielyImagem.jpg')}
+        img={require("../imagens/equipe/danielyImagem.jpg")}
       />
 
       <Membro
@@ -236,7 +236,7 @@ const Equipe = ({ en }) => (
 									analógicos, digitais e de rádio frequência, desenvolvimento de
 									software em sistemas embarcados e projeto de antenas."
         link="http://lattes.cnpq.br/8122238750933560"
-        img={require('../imagens/equipe/decioImagem.jpg')}
+        img={require("../imagens/equipe/decioImagem.jpg")}
       />
 
       <Membro
@@ -255,7 +255,7 @@ const Equipe = ({ en }) => (
 									eletroeletrônicos, tecnologia da informação e processos
 									industriais."
         link="http://lattes.cnpq.br/5612797500196336"
-        img={require('../imagens/equipe/afonsoImagem.jpg')}
+        img={require("../imagens/equipe/afonsoImagem.jpg")}
       />
     </div>
     <div name="mestrando" id="mestrando" style={{ marginTop: 30 }}>
@@ -288,7 +288,7 @@ const Equipe = ({ en }) => (
 									modos ótimos de operação do sistema de aquisição do SPARC4
 									através de redes neurais para observação astronômica."
         link="http://lattes.cnpq.br/9842101872947354"
-        img={require('../imagens/equipe/denisImagem.jpg')}
+        img={require("../imagens/equipe/denisImagem.jpg")}
       />
 
       <Membro
@@ -302,7 +302,7 @@ const Equipe = ({ en }) => (
 									Sistema de Integração Entre Circuitos Nanofotônicos e Fibras
 									Ópticas de Cristal Fotônico."
         link="http://lattes.cnpq.br/3322501927530019"
-        img={require('../imagens/equipe/adelsonImagem.jpg')}
+        img={require("../imagens/equipe/adelsonImagem.jpg")}
       />
     </div>
 
@@ -311,6 +311,20 @@ const Equipe = ({ en }) => (
         <h2>Graduando</h2>
       </Col>
 
+      <Membro
+        nome="Henrique Marcelino Possatto"
+        titulo="Graduando em Engenharia de Computação"
+        texto="Atualmente graduando em Engenharia de Computação pela Unifei, com previsão de conclusão em 2021, Interesse na área de programação, programação embarcada e eletrônica"
+        link="http://lattes.cnpq.br/3952642533153546"
+        img={require("../imagens/equipe/henriquemp.png")}
+      />
+      <Membro
+        nome="Pedro Dal Bello Carranza"
+        titulo="Graduando em Engenharia de Computação"
+        texto="Atualmente graduando em Engenharia de Computação pela Universidade Federal de Itajubá, com início em 2017 e previsão de conclusão em 2021. Tem interesse em programação e eletrônica."
+        link="http://lattes.cnpq.br/5766871222042475"
+        img={require("../imagens/equipe/pedrodbc.jpg")}
+      />
       <Membro
         nome="Érika Mayumi Saito Tagima"
         titulo="Técnica em Mecatrônica"
@@ -321,7 +335,7 @@ const Equipe = ({ en }) => (
 									identificação por rádio frequência (RFID) e tem interesse pelo
 									desenvolvimento de aplicativos no sistema Android."
         link="http://lattes.cnpq.br/0602363885001213"
-        img={require('../imagens/equipe/erikaImagem.jpg')}
+        img={require("../imagens/equipe/erikaImagem.jpg")}
       />
 
       <Membro
@@ -334,7 +348,7 @@ const Equipe = ({ en }) => (
 									área de IoT, com enfoque na programação de dispositivos
 									embarcados que comunicam via protocolo LoRaWAN."
         link="http://lattes.cnpq.br/0624693729878452"
-        img={require('../imagens/equipe/talesImagem.jpg')}
+        img={require("../imagens/equipe/talesImagem.jpg")}
       />
 
       <Membro
@@ -347,7 +361,7 @@ const Equipe = ({ en }) => (
 									Elétrica. Atualmente, é bolsista de Iniciação Científica e faz
 									pesquisa na área de IoT."
         link="http://lattes.cnpq.br/3716207589737678"
-        img={require('../imagens/equipe/alineImagem.jpg')}
+        img={require("../imagens/equipe/alineImagem.jpg")}
       />
 
       <Membro
@@ -364,7 +378,7 @@ const Equipe = ({ en }) => (
 									(ECHARPE). Início em dezembro de 2018 com previsão de
 									conclusão em dezembro de 2019."
         link="http://lattes.cnpq.br/3924201044335857"
-        img={require('../imagens/equipe/felipeImagem.jpg')}
+        img={require("../imagens/equipe/felipeImagem.jpg")}
       />
     </div>
     <div name="antigosMembros" id="antigosMembros" style={{ marginTop: 30 }}>
@@ -384,7 +398,7 @@ const Equipe = ({ en }) => (
 									foco em desenvolvimento de sistemas aviônicos, sistemas de
 									comunicações, rádios, antenas, radares e armamentos."
         link="http://lattes.cnpq.br/9630980283008475"
-        img={require('../imagens/equipe/giordanaImagem.jpg')}
+        img={require("../imagens/equipe/giordanaImagem.jpg")}
       />
 
       <Membro
@@ -397,7 +411,7 @@ const Equipe = ({ en }) => (
 									área de Ciência da Computação, com ênfase em Desempenho de
 									Redes."
         link="http://lattes.cnpq.br/6969167942231865"
-        img={require('../imagens/equipe/guilhermeImagem.jpg')}
+        img={require("../imagens/equipe/guilhermeImagem.jpg")}
       />
 
       <Membro
@@ -409,7 +423,7 @@ const Equipe = ({ en }) => (
 								criação de algoritmos que visam a redução de consumo em redes de
 								fibra óptica utilizando técnicas como modulação adaptativa."
         link="http://lattes.cnpq.br/0852967826039995"
-        img={require('../imagens/equipe/rafaelImagem.jpg')}
+        img={require("../imagens/equipe/rafaelImagem.jpg")}
       />
 
       <Membro
@@ -429,7 +443,7 @@ const Equipe = ({ en }) => (
 								manutenção de motores de indução eletromagnética e, também, do
 								setor de sustentabilidade e geração de energia fotovoltaica."
         link="http://lattes.cnpq.br/1651245120335907"
-        img={require('../imagens/equipe/wesleyImagem.jpg')}
+        img={require("../imagens/equipe/wesleyImagem.jpg")}
       />
 
       <Membro
@@ -444,7 +458,7 @@ const Equipe = ({ en }) => (
 								na área de Desenvolvimento de uma plataforma móvel radial para
 								medidores de diagrama de irradiação automático."
         link="http://lattes.cnpq.br/2883577037075954"
-        img={require('../imagens/equipe/alexImagem.jpg')}
+        img={require("../imagens/equipe/alexImagem.jpg")}
       />
 
       <Membro
@@ -463,7 +477,7 @@ const Equipe = ({ en }) => (
 								radiofrequência em uma parceria entre o laboratório WOCA do
 								Inatel e a empresa Bradar Embraer Defesa e Segurança."
         link="http://lattes.cnpq.br/0181780491504693"
-        img={require('../imagens/equipe/renanImagem.jpg')}
+        img={require("../imagens/equipe/renanImagem.jpg")}
       />
 
       <Membro
@@ -479,7 +493,7 @@ const Equipe = ({ en }) => (
 								planejamento de sistemas celulares e analise de desempenho das
 								redes de Telecomunicações em geral."
         link="http://lattes.cnpq.br/2818665148998081"
-        img={require('../imagens/equipe/moiseImagem.jpg')}
+        img={require("../imagens/equipe/moiseImagem.jpg")}
       />
 
       <Membro
@@ -489,7 +503,7 @@ const Equipe = ({ en }) => (
 								Itajubá, Estudo de moduladores eletrópticos baseados em
 								ressoadores."
         link="http://lattes.cnpq.br/5108061853359949"
-        img={require('../imagens/equipe/danielArantesImagem.jpg')}
+        img={require("../imagens/equipe/danielArantesImagem.jpg")}
       />
 
       <Membro
@@ -517,7 +531,7 @@ const Equipe = ({ en }) => (
 								recentemente participa de projetos vinculados ao Sisfron
 								(Sistema Integrado de Monitoramento de Fronteiras)."
         link="http://lattes.cnpq.br/4239219024992491"
-        img={require('../imagens/equipe/igorImagem.jpg')}
+        img={require("../imagens/equipe/igorImagem.jpg")}
       />
 
       <Membro
@@ -529,7 +543,7 @@ const Equipe = ({ en }) => (
 								antenas fractais de banda larga para comunicação 5G, utilizando
 								a geometria do triângulo de Sierpinski."
         link=""
-        img={require('../imagens/equipe/fabioImagem.jpg')}
+        img={require("../imagens/equipe/fabioImagem.jpg")}
       />
     </div>
   </Container>
