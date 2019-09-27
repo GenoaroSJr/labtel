@@ -10,13 +10,32 @@ class Workshop extends React.Component {
         <Card style={{ marginBottom: 30 }} />
 
         <Row>
-          <Col>
-            <Image src={require("../imagens/LAIoT/programa.jpg")} fluid />
+          <Col style={{ textAlign: "right" }}>
+            <Image
+              src={require("../imagens/LAIoT/programa1.png")}
+              style={{ width: "70%" }}
+            />
           </Col>
 
-          <Col style={{ textAlign: "justify" }}>
+          <Col style={{ textAlign: "left" }}>
+            <Image
+              src={require("../imagens/LAIoT/handson.png")}
+              style={{ width: "65%" }}
+            />
+          </Col>
+        </Row>
+
+        <Row>
+          <Col style={{ textAlign: "center" }}>
             <Image
               src={require("../imagens/LAIoT/mapa.png")}
+              style={{ width: "50%" }}
+            />
+          </Col>
+
+          <Col style={{ textAlign: "left" }}>
+            <Image
+              src={require("../imagens/LAIoT/programa2.png")}
               style={{ width: "70%" }}
             />
           </Col>

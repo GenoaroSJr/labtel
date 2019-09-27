@@ -85,6 +85,39 @@ class Home extends React.Component {
         </Carousel>
 
         <Container fluid style={{ marginTop: 20, padding: 20 }}>
+          <Row style={{ marginBottom: 20 }}>
+            <Col>
+              <Card style={{ marginTop: 20 }}>
+                <Card.Header>
+                  <FontAwesomeIcon icon={faCog} />
+                  {" Venha conhecer nosso workshop!"}
+                </Card.Header>
+                <Card.Body>
+                  <Card.Text>
+                    O <b>II Workshop Labtel</b> realizado pelo Laboratório de
+                    Telecomunicações da UNIFEI, tem como objetivo aproximar
+                    acadêmia e potenciais parceiros de diferentes ramos da
+                    indústria de tecnologia e inovação. O encontro será
+                    realizado nos dias <b>17 e 18 de outubro de 2019 </b> no
+                    prédio QMAP, localizado no campus da Unifei, em Itajubá. Na
+                    ocasião, estudantes, pesquisadores e desenvolvedores terão o
+                    espaço para apresentar seus trabalhos, propostas de projetos
+                    e resultados, de modo que se possam estabelecer novas redes
+                    de contato e possíveis parceirias entre todos os envolvidos.
+                  </Card.Text>
+                  <Button
+                    variant="primary"
+                    onClick={() => {
+                      this.setState({ redirect: "workshop" });
+                    }}
+                  >
+                    {en ? "Get more info" : "Saiba Mais"}
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+
           <Row>
             <Col>
               <Card>
@@ -230,38 +263,6 @@ class Home extends React.Component {
                     variant="primary"
                     onClick={() => {
                       this.setState({ redirect: "pesquisa" });
-                    }}
-                  >
-                    {en ? "Get more info" : "Saiba Mais"}
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <Card>
-                <Card.Header style={{ marginTop: 20 }}>
-                  <FontAwesomeIcon icon={faCog} />
-                  {" Venha conhecer nosso workshop!"}
-                </Card.Header>
-                <Card.Body>
-                  <Card.Text>
-                    O <b>II Workshop Labtel</b> realizado pelo Laboratório de
-                    Telecomunicações da UNIFEI, tem como objetivo aproximar
-                    acadêmia e potenciais parceiros de diferentes ramos da
-                    indústria de tecnologia e inovação. O encontro será
-                    realizado nos dias <b>17 e 18 de outubro de 2019 </b> no
-                    prédio QMAP, localizado no campus da Unifei, em Itajubá. Na
-                    ocasião, estudantes, pesquisadores e desenvolvedores terão o
-                    espaço para apresentar seus trabalhos, propostas de projetos
-                    e resultados, de modo que se possam estabelecer novas redes
-                    de contato e possíveis parceirias entre todos os envolvidos.
-                  </Card.Text>
-                  <Button
-                    variant="primary"
-                    onClick={() => {
-                      this.setState({ redirect: "workshop" });
                     }}
                   >
                     {en ? "Get more info" : "Saiba Mais"}
