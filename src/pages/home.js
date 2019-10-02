@@ -7,6 +7,12 @@ import {
   faUniversity,
   faCog
 } from "@fortawesome/free-solid-svg-icons";
+import styled, { keyframes } from "styled-components";
+import { pulse } from "react-animations";
+
+const Shake = styled.div`
+  animation: 1s ${keyframes`${pulse}`} infinite;
+`;
 
 class Home extends React.Component {
   state = {};
@@ -15,7 +21,7 @@ class Home extends React.Component {
     if (this.state.redirect !== undefined)
       return <Redirect to={this.state.redirect} />;
     return (
-      <Container fluid style={{ padding: 0 }}>
+      <Container fluid style={{ padding: 0, width: "90%" }}>
         <div style={{ textAlign: "center" }}>
           {en ? (
             <h1>Telecommunication Team</h1>
@@ -25,6 +31,22 @@ class Home extends React.Component {
 
           <Card style={{ marginBottom: 15 }} />
         </div>
+        <Row>
+          <Col style={{ textAlign: "center" }}>
+            <Shake>
+              <Button
+                variant="danger"
+                block
+                style={{ width: "100%", fontSize: 40, marginBottom: 10 }}
+                onClick={() => {
+                  this.setState({ redirect: "workshop" });
+                }}
+              >
+                Venha conhecer nosso Workshop!!
+              </Button>
+            </Shake>
+          </Col>
+        </Row>
         <Carousel>
           <Carousel.Item>
             <img
