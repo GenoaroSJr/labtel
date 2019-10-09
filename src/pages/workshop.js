@@ -1,6 +1,12 @@
 import React from "react";
 import { Container, Card, Image, Row, Col, Button } from "react-bootstrap";
 import Iframe from "react-iframe";
+import styled, { keyframes } from "styled-components";
+import { pulse } from "react-animations";
+
+const Shake = styled.div`
+  animation: 1s ${keyframes`${pulse}`} infinite;
+`;
 
 class Workshop extends React.Component {
   render() {
@@ -8,7 +14,21 @@ class Workshop extends React.Component {
       <Container fluid style={{ marginTop: 20, padding: 20, width: "90%" }}>
         <h1>Workshop</h1>
         <Card style={{ marginBottom: 30 }} />
-
+        <Row>
+          <Col style={{ textAlign: "left", marginTop: 20, marginBottom: 30 }}>
+            <Shake>
+              <Button
+                style={{ fontSize: 50, fontFamily: "verdana" }}
+                size="lg"
+                block
+                variant="danger"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSccPU2mhvXc_MRS0gCopEJxmjhZbyHrofaHMCgIejSwrADqRw/viewform?usp=sf_link"
+              >
+                Inscreva-se!
+              </Button>
+            </Shake>
+          </Col>
+        </Row>
         <Row>
           <Col sm="4" style={{ textAlign: "right" }}>
             <Image
@@ -27,20 +47,6 @@ class Workshop extends React.Component {
               src={require("../imagens/LAIoT/sexta.jpg")}
               style={{ width: "100%" }}
             />
-          </Col>
-        </Row>
-
-        <Row>
-          <Col style={{ textAlign: "left", marginTop: 20, marginBottom: 30 }}>
-            <Button
-              style={{ fontSize: 50 }}
-              size="lg"
-              block
-              variant="danger"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSccPU2mhvXc_MRS0gCopEJxmjhZbyHrofaHMCgIejSwrADqRw/viewform?usp=sf_link"
-            >
-              Inscreva-se!
-            </Button>
           </Col>
         </Row>
 

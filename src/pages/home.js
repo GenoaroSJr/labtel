@@ -37,12 +37,17 @@ class Home extends React.Component {
               <Button
                 variant="danger"
                 block
-                style={{ width: "100%", fontSize: 40, marginBottom: 10 }}
+                style={{
+                  width: "100%",
+                  fontSize: 40,
+                  marginBottom: 10,
+                  fontFamily: "verdanaya"
+                }}
                 onClick={() => {
                   this.setState({ redirect: "workshop" });
                 }}
               >
-                Venha conhecer nosso Workshop!!
+                Venha participar no nosso Workshop!
               </Button>
             </Shake>
           </Col>
