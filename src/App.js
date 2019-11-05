@@ -8,7 +8,6 @@ import Equipe from "./pages/equipe";
 import Pesquisa from "./pages/pesquisa";
 import Teses from "./pages/teses";
 import Publicacoes from "./pages/publicacoes";
-import Workshop from "./pages/workshop";
 import ScrollToTop from "./components/scrollToTop";
 
 class App extends React.Component {
@@ -66,10 +65,6 @@ class App extends React.Component {
             <Route
               path="/contato"
               render={() => <Contato en={this.state.en} />}
-            />
-            <Route
-              path="/workshop"
-              render={() => <Workshop en={this.state.en} />}
             />
             <footer style={{ marginTop: 20, textAlign: "center" }}>
               <p>

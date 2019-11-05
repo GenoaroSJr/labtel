@@ -4,15 +4,8 @@ import { Redirect } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGraduationCap,
-  faUniversity,
-  faCog
+  faUniversity
 } from "@fortawesome/free-solid-svg-icons";
-import styled, { keyframes } from "styled-components";
-import { pulse } from "react-animations";
-
-const Shake = styled.div`
-  animation: 1s ${keyframes`${pulse}`} infinite;
-`;
 
 class Home extends React.Component {
   state = {};
@@ -31,27 +24,7 @@ class Home extends React.Component {
 
           <Card style={{ marginBottom: 15 }} />
         </div>
-        <Row>
-          <Col style={{ textAlign: "center" }}>
-            <Shake>
-              <Button
-                variant="danger"
-                block
-                style={{
-                  width: "100%",
-                  fontSize: 40,
-                  marginBottom: 10,
-                  fontFamily: "verdanaya"
-                }}
-                onClick={() => {
-                  this.setState({ redirect: "workshop" });
-                }}
-              >
-                Venha participar no nosso Workshop!
-              </Button>
-            </Shake>
-          </Col>
-        </Row>
+
         <Carousel>
           <Carousel.Item>
             <img
@@ -112,39 +85,6 @@ class Home extends React.Component {
         </Carousel>
 
         <Container fluid style={{ marginTop: 20, padding: 20 }}>
-          <Row style={{ marginBottom: 20 }}>
-            <Col>
-              <Card style={{ marginTop: 20 }}>
-                <Card.Header>
-                  <FontAwesomeIcon icon={faCog} />
-                  {" Venha conhecer nosso workshop!"}
-                </Card.Header>
-                <Card.Body>
-                  <Card.Text>
-                    O <b>II Workshop Labtel</b> realizado pelo Laboratório de
-                    Telecomunicações da UNIFEI, tem como objetivo aproximar
-                    acadêmia e potenciais parceiros de diferentes ramos da
-                    indústria de tecnologia e inovação. O encontro será
-                    realizado nos dias <b>17 e 18 de outubro de 2019 </b> no
-                    prédio QMAP, localizado no campus da Unifei, em Itajubá. Na
-                    ocasião, estudantes, pesquisadores e desenvolvedores terão o
-                    espaço para apresentar seus trabalhos, propostas de projetos
-                    e resultados, de modo que se possam estabelecer novas redes
-                    de contato e possíveis parceirias entre todos os envolvidos.
-                  </Card.Text>
-                  <Button
-                    variant="primary"
-                    onClick={() => {
-                      this.setState({ redirect: "workshop" });
-                    }}
-                  >
-                    {en ? "Get more info" : "Saiba Mais"}
-                  </Button>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-
           <Row>
             <Col>
               <Card>
