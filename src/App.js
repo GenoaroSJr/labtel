@@ -9,12 +9,15 @@ import Pesquisa from "./pages/pesquisa";
 import Teses from "./pages/teses";
 import Publicacoes from "./pages/publicacoes";
 import ScrollToTop from "./components/scrollToTop";
+import Eventos from "./pages/eventos";
 
 class App extends React.Component {
   state = {
     en: false
   };
 
+
+  //recuperar a linguagem da sessão anterior
   componentDidMount() {
     var opt = localStorage.getItem("en") || false;
 
@@ -27,6 +30,8 @@ class App extends React.Component {
     }
   }
 
+
+  //função para mudar a linguagem quando a bandeira é clicada
   lang = () => {
     if (this.state.en) {
       this.setState({ en: false });
@@ -62,6 +67,7 @@ class App extends React.Component {
             />
             <Route path="/teses" render={() => <Teses en={this.state.en} />} />
             <Route path="/fotos" render={() => <Fotos en={this.state.en} />} />
+            <Route path="/eventos" render={() => <Eventos en={this.state.en} />} />
             <Route
               path="/contato"
               render={() => <Contato en={this.state.en} />}
