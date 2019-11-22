@@ -23,6 +23,9 @@ const MyNav = ({ func, en }) => (
         <Nav.Link as={Link} to="/teses">
           {en ? "Theses and Dissertations" : "Teses e Dissertações"}
         </Nav.Link>
+        <Nav.Link as={Link} to="/eventos">
+          {en ? "Events" : "Eventos"}
+        </Nav.Link>
         <Nav.Link href="/fotos">
           {en ? "Photo Gallery" : "Galeria de Fotos"}
         </Nav.Link>
