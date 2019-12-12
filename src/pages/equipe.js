@@ -185,61 +185,6 @@ const Equipe = ({ en }) => (
       />
 
       <Membro
-        nome="Daniely Gomes Silva"
-        titulo="Mestre em Telecomunicações"
-        texto="Possui graduação em Engenharia Elétrica, modalidade em
-									Eletrônica com ênfase Telecomunicações, pelo Instituto
-									Nacional de Telecomunicações (INATEL), em 2007. Durante seus
-									estudos no INATEL, estagiou nas empresas Furnas Centrais
-									Elétricas S.A., Hitachi Kokusai Linear Equipamentos
-									Eletrônicos S.A. e no Inatel Competence Center (ICC) Hardware.
-									Em 2008, participou do Curso de Formação de Projetistas de
-									Circuitos Integrados Digitais (CI Brasil - CT2) e também do
-									Curso de Formação de Instrutores de Circuitos Integrados
-									Digitais (2009), no qual obteve certificação internacional na
-									ferramenta Encounter RTL Compiler v7.2 pela empresa Cadence
-									Design Systems, em Cary - NC - USA. Deste 2007 atuou como
-									engenheira do ICC Hardware em projetos nas áreas de
-									comunicação digital e microeletrônica. Em 2012, participou de
-									um treinamento na Índia, em microeletrônica analógica, na
-									empresa SparkLab Engineering System PVT. LTD. Em 2013,
-									concluiu o mestrado na área de circuitos integrados
-									analógicos. De 2011 a 2016 participou de um projeto de
-									circuito integrado de sinais mistos para sensores indutivos de
-									proximidade e também ministrou aulas de VHDL/FPGA para alunos
-									de engenharia do INATEL. Atualmente cursa Doutorado em
-									Engenharia Elétrica, com ênfase em Microeletrônica, pela
-									Universidade Federal de Itajubá. Neste curso está
-									desenvolvendo projetos de otimização numérica aplicada à
-									transformada óptica para obtenção de mapeamento quase-conforme
-									em mantos de invisibilidade tri-dimensionais e também
-									prototipagem de guias de ondas em 3D obtidas a partir de
-									transformação óptica quase-conforme e otimização numérica."
-        link="http://lattes.cnpq.br/7357330731419401"
-        img={require("../imagens/equipe/danielyImagem.jpg")}
-      />
-
-      <Membro
-        nome="Décio Rennó de Mendonça Faria"
-        titulo="Mestre em Engenharia Elétrica"
-        texto="Atualmente é professor substituto de Eletrônica Aplicada e
-									doutorando na área de eletromagnetismo na UNIFEI, Universidade
-									Federal de Itajubá , mestre em Engenharia Elétrica pela
-									Universidade Federal de Itajubá (2016), graduado em Engenharia
-									Elétrica pela Universidade Federal de Itajubá (2002), graduado
-									em Matemática Aplicada à Informática (análise de sistemas)
-									pela Fundação de Ensino e Pesquisa de Itajubá (1994) , possui
-									Licenciatura em Eletrônica pela Faculdade Paulista São José
-									(2015), formação Técnica em Eletrônica pela E. E. Técnico
-									Industrial Tancredo Neves de Brasópolis, MG (1989). Possui
-									experiência em projetos e manutenção de circuitos eletrônicos
-									analógicos, digitais e de rádio frequência, desenvolvimento de
-									software em sistemas embarcados e projeto de antenas."
-        link="http://lattes.cnpq.br/8122238750933560"
-        img={require("../imagens/equipe/decioImagem.jpg")}
-      />
-
-      <Membro
         nome="Afonso José de Faria"
         titulo="Mestre em Telecomunicações"
         texto="Possui Graduação em Engenharia Elétrica pelo Instituto
@@ -262,6 +207,18 @@ const Equipe = ({ en }) => (
       <Col lg={12}>
         <h2>Mestrando</h2>
       </Col>
+
+      <Membro
+        nome="Miguel Marques de Paiva Esper"
+        titulo="Bacharel em Engenharia de Computação"
+        texto="Graduado em engenharia de computação pelo Instituto Nacional de Telecomunicações em 2012.
+		 Atuou como analista de desenvolvimento de aplicativos móveis para o sistema Android na DL Eletrônicos.
+		  Ainda na DL, trabalhou como líder do setor de desenvolvimento de aplicações móveis para o sistema Android.
+		   Atua como freelancer nas áreas de desenvolvimento de site na plataforma Wordpress,
+		    imagens aéreas com drones e serviços de servidores em nuvem com AWS (Amazon Web Services)."
+        link="http://lattes.cnpq.br/3251499066712850"
+        img={require("../imagens/equipe/miguel.jpg")}
+      />
 
       <Membro
         nome="Denis Varise Bernardes"
@@ -325,18 +282,6 @@ const Equipe = ({ en }) => (
         link="http://lattes.cnpq.br/5766871222042475"
         img={require("../imagens/equipe/pedrodbc.jpg")}
       />
-      <Membro
-        nome="Érika Mayumi Saito Tagima"
-        titulo="Técnica em Mecatrônica"
-        texto="Graduanda em Engenharia de Controle e Automação pela
-									Universidade Federal de Itajubá. Possui técnico em Mecatrônica
-									pelo Instituto Federal de Educação, Ciência e Tecnologia de
-									São Paulo – campus Bragança Paulista. Pesquisa na área de
-									identificação por rádio frequência (RFID) e tem interesse pelo
-									desenvolvimento de aplicativos no sistema Android."
-        link="http://lattes.cnpq.br/0602363885001213"
-        img={require("../imagens/equipe/erikaImagem.jpg")}
-      />
 
       <Membro
         nome="Tales Henrique Carvalho"
@@ -349,19 +294,6 @@ const Equipe = ({ en }) => (
 									embarcados que comunicam via protocolo LoRaWAN."
         link="http://lattes.cnpq.br/0624693729878452"
         img={require("../imagens/equipe/talesImagem.jpg")}
-      />
-
-      <Membro
-        nome="Aline Amorim"
-        titulo="Graduanda em Engenharia Elétrica"
-        texto="Graduanda em Engenharia Elétrica na Universidade Federal de
-									Itajubá. Atuou no Centro Acadêmico de Engenharia Elétrica, na
-									área de projetos, onde auxiliou a organização de visitas
-									técnicas, mini cursos e eventos, como a Semana de Engenharia
-									Elétrica. Atualmente, é bolsista de Iniciação Científica e faz
-									pesquisa na área de IoT."
-        link="http://lattes.cnpq.br/3716207589737678"
-        img={require("../imagens/equipe/alineImagem.jpg")}
       />
 
       <Membro
@@ -385,6 +317,87 @@ const Equipe = ({ en }) => (
       <Col lg={12}>
         <h2>Membros Antigos</h2>
       </Col>
+
+      <Membro
+        nome="Aline Amorim"
+        titulo="Graduanda em Engenharia Elétrica"
+        texto="Graduanda em Engenharia Elétrica na Universidade Federal de
+									Itajubá. Atuou no Centro Acadêmico de Engenharia Elétrica, na
+									área de projetos, onde auxiliou a organização de visitas
+									técnicas, mini cursos e eventos, como a Semana de Engenharia
+									Elétrica. Atualmente, é bolsista de Iniciação Científica e faz
+									pesquisa na área de IoT."
+        link="http://lattes.cnpq.br/3716207589737678"
+        img={require("../imagens/equipe/alineImagem.jpg")}
+      />
+
+      <Membro
+        nome="Érika Mayumi Saito Tagima"
+        titulo="Técnica em Mecatrônica"
+        texto="Graduanda em Engenharia de Controle e Automação pela
+									Universidade Federal de Itajubá. Possui técnico em Mecatrônica
+									pelo Instituto Federal de Educação, Ciência e Tecnologia de
+									São Paulo – campus Bragança Paulista. Pesquisa na área de
+									identificação por rádio frequência (RFID) e tem interesse pelo
+									desenvolvimento de aplicativos no sistema Android."
+        link="http://lattes.cnpq.br/0602363885001213"
+        img={require("../imagens/equipe/erikaImagem.jpg")}
+      />
+
+      <Membro
+        nome="Daniely Gomes Silva"
+        titulo="Mestre em Telecomunicações"
+        texto="Possui graduação em Engenharia Elétrica, modalidade em
+									Eletrônica com ênfase Telecomunicações, pelo Instituto
+									Nacional de Telecomunicações (INATEL), em 2007. Durante seus
+									estudos no INATEL, estagiou nas empresas Furnas Centrais
+									Elétricas S.A., Hitachi Kokusai Linear Equipamentos
+									Eletrônicos S.A. e no Inatel Competence Center (ICC) Hardware.
+									Em 2008, participou do Curso de Formação de Projetistas de
+									Circuitos Integrados Digitais (CI Brasil - CT2) e também do
+									Curso de Formação de Instrutores de Circuitos Integrados
+									Digitais (2009), no qual obteve certificação internacional na
+									ferramenta Encounter RTL Compiler v7.2 pela empresa Cadence
+									Design Systems, em Cary - NC - USA. Deste 2007 atuou como
+									engenheira do ICC Hardware em projetos nas áreas de
+									comunicação digital e microeletrônica. Em 2012, participou de
+									um treinamento na Índia, em microeletrônica analógica, na
+									empresa SparkLab Engineering System PVT. LTD. Em 2013,
+									concluiu o mestrado na área de circuitos integrados
+									analógicos. De 2011 a 2016 participou de um projeto de
+									circuito integrado de sinais mistos para sensores indutivos de
+									proximidade e também ministrou aulas de VHDL/FPGA para alunos
+									de engenharia do INATEL. Atualmente cursa Doutorado em
+									Engenharia Elétrica, com ênfase em Microeletrônica, pela
+									Universidade Federal de Itajubá. Neste curso está
+									desenvolvendo projetos de otimização numérica aplicada à
+									transformada óptica para obtenção de mapeamento quase-conforme
+									em mantos de invisibilidade tri-dimensionais e também
+									prototipagem de guias de ondas em 3D obtidas a partir de
+									transformação óptica quase-conforme e otimização numérica."
+        link="http://lattes.cnpq.br/7357330731419401"
+        img={require("../imagens/equipe/danielyImagem.jpg")}
+      />
+
+      <Membro
+        nome="Décio Rennó de Mendonça Faria"
+        titulo="Mestre em Engenharia Elétrica"
+        texto="Atualmente é professor substituto de Eletrônica Aplicada e
+									doutorando na área de eletromagnetismo na UNIFEI, Universidade
+									Federal de Itajubá , mestre em Engenharia Elétrica pela
+									Universidade Federal de Itajubá (2016), graduado em Engenharia
+									Elétrica pela Universidade Federal de Itajubá (2002), graduado
+									em Matemática Aplicada à Informática (análise de sistemas)
+									pela Fundação de Ensino e Pesquisa de Itajubá (1994) , possui
+									Licenciatura em Eletrônica pela Faculdade Paulista São José
+									(2015), formação Técnica em Eletrônica pela E. E. Técnico
+									Industrial Tancredo Neves de Brasópolis, MG (1989). Possui
+									experiência em projetos e manutenção de circuitos eletrônicos
+									analógicos, digitais e de rádio frequência, desenvolvimento de
+									software em sistemas embarcados e projeto de antenas."
+        link="http://lattes.cnpq.br/8122238750933560"
+        img={require("../imagens/equipe/decioImagem.jpg")}
+      />
 
       <Membro
         nome="Giordana Maria Rodrigues"
