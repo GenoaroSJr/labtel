@@ -134,26 +134,6 @@ const Equipe = ({ en }) => (
       </Col>
 
       <Membro
-        nome="Andreia Aparecida de Castro Alves"
-        titulo="Mestre em Telecomunicações"
-        texto="Atualmente cursa Doutorado em Engenharia Elétrica com ênfase
-									em Microeletrônica pela Universidade Federal de Itajubá.
-									Possui mestrado e graduação em Sistemas de Telecomunicações
-									também pela Universidade Estadual de Campinas (2013). Tem
-									experiência na área de pesquisa e desenvolvimento de etiquetas
-									de RFID chipless, filtros, amplificadores de potência e
-									amplificadores de baixo ruído para aviões não tripulados
-									(VANTs), radares SAR e radares de Monopulso. Atualmente é
-									pesquisador voluntário no laboratório de Wireless and Optical
-									Convergent Access (WOCA) do Inatel, onde desenvolve atividades
-									de pesquisa acadêmica e atividades em parceria com a empresa
-									Bradar Indústria S/A do grupo Embraer Defesa, onde participou
-									de projetos de pesquisa e desenvolvimento."
-        link="http://lattes.cnpq.br/3831378780875013"
-        img={require("../imagens/equipe/andreiaImagem.jpg")}
-      />
-
-      <Membro
         nome="Gabriel Lobão da Silva Fré"
         titulo="Mestre em Telecomunicações"
         texto="Graduado em engenharia elétrica pelo Instituto Nacional de
@@ -169,19 +149,6 @@ const Equipe = ({ en }) => (
 									Eletromagnetismo."
         link="http://lattes.cnpq.br/2539115151670208"
         img={require("../imagens/equipe/lobaoImagem.png")}
-      />
-
-      <Membro
-        nome="Poliane Aires Teixeira"
-        titulo="Mestre em Telecomunicações"
-        texto="Doutoranda em Engenharia Elétrica pela Universidade Federal de
-									Itajubá,possui Mestrado em Telecomunicações pelo Instituto
-									Nacional de Telecomunicações, Graduação em Engenharia Elétrica
-									com ênfase em Telecomunicações pelo Instituto Nacional de
-									Telecomunicações e curso técnico-profissionalizante pela
-									Escola Técnica de Eletrônica Francisco Moreira da Costa."
-        link="http://lattes.cnpq.br/4964865294025484"
-        img={require("../imagens/equipe/polianeImagem.png")}
       />
 
       <Membro
@@ -207,6 +174,19 @@ const Equipe = ({ en }) => (
       <Col lg={12}>
         <h2>Mestrando</h2>
       </Col>
+
+      <Membro
+        nome="Tales Henrique Carvalho"
+        titulo="Graduando em Engenharia de Controle e Automação"
+        texto="Graduando em Engenharia de Controle e Automação na UNIFEI.
+									Possuo experiência em programação embarcada e em
+									desenvolvimento de aplicações para dispositivos móveis.
+									Atualmente estou realizando meu Trabalho Final de Graduação na
+									área de IoT, com enfoque na programação de dispositivos
+									embarcados que comunicam via protocolo LoRaWAN."
+        link="http://lattes.cnpq.br/0624693729878452"
+        img={require("../imagens/equipe/talesImagem.jpg")}
+      />
 
       <Membro
         nome="Miguel Marques de Paiva Esper"
@@ -282,18 +262,43 @@ const Equipe = ({ en }) => (
         link="http://lattes.cnpq.br/5766871222042475"
         img={require("../imagens/equipe/pedrodbc.jpg")}
       />
+    </div>
+    <div name="antigosMembros" id="antigosMembros" style={{ marginTop: 30 }}>
+      <Col lg={12}>
+        <h2>Membros Antigos</h2>
+      </Col>
 
       <Membro
-        nome="Tales Henrique Carvalho"
-        titulo="Graduando em Engenharia de Controle e Automação"
-        texto="Graduando em Engenharia de Controle e Automação na UNIFEI.
-									Possuo experiência em programação embarcada e em
-									desenvolvimento de aplicações para dispositivos móveis.
-									Atualmente estou realizando meu Trabalho Final de Graduação na
-									área de IoT, com enfoque na programação de dispositivos
-									embarcados que comunicam via protocolo LoRaWAN."
-        link="http://lattes.cnpq.br/0624693729878452"
-        img={require("../imagens/equipe/talesImagem.jpg")}
+        nome="Andreia Aparecida de Castro Alves"
+        titulo="Mestre em Telecomunicações"
+        texto="Atualmente cursa Doutorado em Engenharia Elétrica com ênfase
+									em Microeletrônica pela Universidade Federal de Itajubá.
+									Possui mestrado e graduação em Sistemas de Telecomunicações
+									também pela Universidade Estadual de Campinas (2013). Tem
+									experiência na área de pesquisa e desenvolvimento de etiquetas
+									de RFID chipless, filtros, amplificadores de potência e
+									amplificadores de baixo ruído para aviões não tripulados
+									(VANTs), radares SAR e radares de Monopulso. Atualmente é
+									pesquisador voluntário no laboratório de Wireless and Optical
+									Convergent Access (WOCA) do Inatel, onde desenvolve atividades
+									de pesquisa acadêmica e atividades em parceria com a empresa
+									Bradar Indústria S/A do grupo Embraer Defesa, onde participou
+									de projetos de pesquisa e desenvolvimento."
+        link="http://lattes.cnpq.br/3831378780875013"
+        img={require("../imagens/equipe/andreiaImagem.jpg")}
+      />
+
+      <Membro
+        nome="Poliane Aires Teixeira"
+        titulo="Mestre em Telecomunicações"
+        texto="Doutoranda em Engenharia Elétrica pela Universidade Federal de
+									Itajubá,possui Mestrado em Telecomunicações pelo Instituto
+									Nacional de Telecomunicações, Graduação em Engenharia Elétrica
+									com ênfase em Telecomunicações pelo Instituto Nacional de
+									Telecomunicações e curso técnico-profissionalizante pela
+									Escola Técnica de Eletrônica Francisco Moreira da Costa."
+        link="http://lattes.cnpq.br/4964865294025484"
+        img={require("../imagens/equipe/polianeImagem.png")}
       />
 
       <Membro
@@ -312,11 +317,6 @@ const Equipe = ({ en }) => (
         link="http://lattes.cnpq.br/3924201044335857"
         img={require("../imagens/equipe/felipeImagem.jpg")}
       />
-    </div>
-    <div name="antigosMembros" id="antigosMembros" style={{ marginTop: 30 }}>
-      <Col lg={12}>
-        <h2>Membros Antigos</h2>
-      </Col>
 
       <Membro
         nome="Aline Amorim"

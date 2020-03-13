@@ -17,7 +17,7 @@ class Home extends React.Component {
       <Container fluid style={{ padding: 0, width: "90%" }}>
         <div style={{ textAlign: "center" }}>
           {en ? (
-            <h1>Telecommunication Team</h1>
+            <h1>Telecommunications Team</h1>
           ) : (
             <h1>Grupo de Telecomunicações</h1>
           )}
@@ -157,35 +157,35 @@ class Home extends React.Component {
                     <>
                       <Card.Text>
                         In the area of <b>optics and photonics</b>, we are at
-                        the science frontier when developing new devices, on
+                        the cutting edge for developing new devices, on
                         nanometric scales, in silicon technology, called
                         Integrated Optics (Silicon Photonics). This concept of
-                        nanophotonics allows to miniaturize network components,
-                        reaching high data trasmission rates. Furthermore, the
-                        team's work is directed to the Optical Transformation
-                        (OT) research line, which allows to get new structures
-                        and devices, such as perfect lenses and the cloack of
-                        invisibility.{" "}
+                        nanophotonics allows network components to be
+                        miniaturized, reaching high data trasmission rates.
+                        Furthermore, the team's work is directed to the Optical
+                        Transformation (OT) research line, which allows to get
+                        new structures and devices, such as perfect lenses and
+                        the cloack of invisibility.{" "}
                       </Card.Text>
                       <Card.Text>
                         In the <b>Radio frequency</b> research line, we are
-                        working on the development of RF chipless sensors and
-                        also in application of Radio Frequency IDentification
-                        (RFID) in IoT (Internet of Things). The team relies on
-                        professionally certified researches to work with RFID
-                        systems within GS1 EPCglobal standards.
+                        working on developing chipless RF sensors and also on
+                        applying Radio Frequency IDentification (RFID) in IoT
+                        (Internet of Things). The team relies on professionally
+                        certified researches to work with RFID systems within
+                        GS1 EPCglobal standards
                       </Card.Text>
                       <Card.Text>
                         Finally, in our third pillar of{" "}
                         <b>waves and antennas propagation</b>, we develop
-                        scientific researchs for the new fifth generation
+                        scientific research studies for the new fifth generation
                         cellphone networks (5G), looking for strong innovation
                         when integrating optical control in antenna
-                        arrangements. More over, we can connect the
-                        nanophotonics and RF research lines when integrating
-                        concepts of: propagation, radar, optics and antennas.
-                        More details about our research line can be found in the
-                        team's publications, as well as by our contact.
+                        arrangements. Moreover, we can connect the nanophotonics
+                        and RF research lines when integrating concepts of:
+                        propagation, radar, optics and antennas. More details
+                        about our research line can be found in the team's
+                        publications, or by contacting us.
                       </Card.Text>
                     </>
                   ) : (

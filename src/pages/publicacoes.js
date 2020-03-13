@@ -35,6 +35,24 @@ const Publicacoes = ({ en }) => (
       </Card.Body>
     </Card>
 
+    <h2 style={{ marginTop: 40 }}>2020</h2>
+    <Card style={{ marginBottom: 20 }} />
+    <Card>
+      <Card.Body>
+        <h4> {en ? "Journals" : "Revistas"} </h4>
+        <ul>
+          <li>
+            BORGES, RAMON MAIA ; MELO PEREIRA, LUIZ AUGUSTO ; RODRIGUES DIAS
+            FILGUEIRAS, HUGO ; CARVALHO FERREIRA, ALEXANDRE ; SEDA BORSATO
+            CUNHA, MATHEUS ; RAIMUNDO NETO, EGIDIO ; SPADOTI, DANILO HENRIQUE ;
+            LEONEL MENDES, LUCIANO ; CERQUEIRA S., ARISMAR . DSP-Based
+            Flexible-Waveform and Multi-Application 5G Fiber-Wireless System.
+            JOURNAL OF LIGHTWAVE TECHNOLOGY, v. 38, p. 642-653, 2020.
+          </li>
+        </ul>
+      </Card.Body>
+    </Card>
+
     <h2 style={{ marginTop: 40 }}>2019</h2>
     <Card style={{ marginBottom: 20 }} />
     <Card>

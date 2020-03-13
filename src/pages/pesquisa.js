@@ -250,8 +250,8 @@ const Pesquisa = ({ en }) => (
               capable of performing high gain with maximum efficiency,
               self-tuning and also being optically controlled. Then, we can
               develop antennas operating in broadband and/or operating in
-              different frequencies bands. Within this research line, we
-              highlight the simulations and experiments in:
+              different frequency bands. Within this research line, we highlight
+              the simulations and experiments in:
             </>
           ) : (
             <>
@@ -443,7 +443,7 @@ const Pesquisa = ({ en }) => (
               Modeling of the electro-optical effect in LID devices, for
               applications in THz range modulators. The objective of this
               project is to develop an electro-optical modulator by applying the
-              technique of confinement of the electromagnetic wave in lower
+              technique of confinement of the electromagnetic wave in a lower
               refraction index environment, through the discontinuity in the
               interface between the environments, as what happens in devices
               known as LIDs. For this, the electro-optical effect is
