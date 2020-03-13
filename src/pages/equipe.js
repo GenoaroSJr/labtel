@@ -177,7 +177,7 @@ const Equipe = ({ en }) => (
 
       <Membro
         nome="Tales Henrique Carvalho"
-        titulo="Graduando em Engenharia de Controle e Automação"
+        titulo="Bacharel em Engenharia de Controle e Automação"
         texto="Graduando em Engenharia de Controle e Automação na UNIFEI.
 									Possuo experiência em programação embarcada e em
 									desenvolvimento de aplicações para dispositivos móveis.
@@ -261,6 +261,14 @@ const Equipe = ({ en }) => (
         texto="Atualmente graduando em Engenharia de Computação pela Universidade Federal de Itajubá, com início em 2017 e previsão de conclusão em 2021. Tem interesse em programação e eletrônica."
         link="http://lattes.cnpq.br/5766871222042475"
         img={require("../imagens/equipe/pedrodbc.jpg")}
+      />
+
+      <Membro
+        nome="Pedro Mendes Parreiras de Faria"
+        titulo="Graduando em Engenharia Elétrica"
+        texto="Graduando em engenharia elétrica. Trabalhou como projetista na Archote Jr, realizando projetos de usinas fotovoltaicas, e projetos de intertravamento e desenvolvimento de projetos elétricos para protótipos. Foi voluntário no projeto de vistoria das instalações elétricas da Santa Casa da Misericórdia de itajubá. Posteriormente tornou-se gerente de vendas na Archote Jr."
+        link="http://lattes.cnpq.br/3646103838601757"
+        img={require("../imagens/equipe/pedroMendes.jpg")}
       />
     </div>
     <div name="antigosMembros" id="antigosMembros" style={{ marginTop: 30 }}>
