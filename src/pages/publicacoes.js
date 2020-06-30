@@ -49,6 +49,12 @@ const Publicacoes = ({ en }) => (
             Flexible-Waveform and Multi-Application 5G Fiber-Wireless System.
             JOURNAL OF LIGHTWAVE TECHNOLOGY, v. 38, p. 642-653, 2020.
           </li>
+          <li>
+            MAIA BORGES, RAMON ; SAIA LIMA, EDUARDO ; FERREIRA, ALEXANDRE C. ;
+            HENRIQUE SPADOTI, DANILO ; ABREU, MARCELO ; LEONEL MENDES, LUCIANO ;
+            CERQUEIRA S., ARISMAR . Multiband 5G NR system with photonic-assisted
+            RF amplification. OPTICS LETTERS, v. 45, p. 1539, 2020.
+          </li>
         </ul>
       </Card.Body>
     </Card>

@@ -98,6 +98,15 @@ const Equipe = ({ en }) => (
         link="http://lattes.cnpq.br/9987344139958522"
         img={require("../imagens/equipe/justinoImagem.jpg")}
       />
+
+<Membro
+        nome="Edvard Martins de Oliveira"
+        titulo="Doutorado em Ciências da Computação e Matemática Computacional"
+        texto="Atualmente é professor do magistério superior da Universidade Federal de Itajubá. Doutor em Ciências da Computação e Matemática Computacional pela Universidade de São Paulo. Possui mestrado em Ciências da Computação e Matemática Computacional pela Universidade de São Paulo (2013) e graduação em Ciência da Computação pela Pontifícia Universidade Católica de Minas Gerais (2010). Atua na área de Sistemas Distribuídos, com ênfase em e-Science, Gateways Científicos, Arquiteturas Orientadas a Serviço (SOA), Workflows Científicos e Predição de Estruturas de Proteínas."
+        link="http://lattes.cnpq.br/2922253125747504"
+        img={require("../imagens/equipe/edvard.jpeg")}
+      />
+
     </div>
 
     <div name="posDoutorado" id="posDoutorado" style={{ marginTop: 30 }}>
@@ -106,7 +115,7 @@ const Equipe = ({ en }) => (
       </Col>
       <Membro
         nome="Reinaldo Lima de Abreu"
-        titulo="	Doutor em Engenharia Elétrica"
+        titulo="Doutor em Engenharia Elétrica"
         texto="É Engenheiro de Controle e Automação com Mestrado em
 									Engenharia Elétrica com ênfase em Automação e Sistemas
 									Elétricos Industriais. Possui conhecimentos em pesquisa em
@@ -248,6 +257,14 @@ const Equipe = ({ en }) => (
         <h2>Graduando</h2>
       </Col>
 
+
+      <Membro
+        nome="Danilo Di Lorenzo Teixeira Clemente"
+        titulo="Graduando em Engenharia Elétrica"
+        texto="Graduando em Engenharia Elétrica pela Universidade Federal de Itajubá (UNIFEI) e LSS Green Belt. Participou do projeto especial EcoVeículo pela subequipe de Powertrain Elétrico. "
+        link="http://lattes.cnpq.br/3477823581857868"
+        img={require("../imagens/equipe/danilo_lorenzo.jpg")}
+      />
       <Membro
         nome="Henrique Marcelino Possatto"
         titulo="Graduando em Engenharia de Computação"
