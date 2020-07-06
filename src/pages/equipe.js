@@ -265,6 +265,14 @@ const Equipe = ({ en }) => (
         link="http://lattes.cnpq.br/3477823581857868"
         img={require("../imagens/equipe/danilo_lorenzo.jpg")}
       />
+
+      <Membro 
+        nome="Leonardo Henrique de Melo"
+        titulo="Graduando em Engenharia de Computação"
+        texto="Graduando em Engenharia de Computação pela Universidade Federal de Itajubá (Unifei). Monitor da disciplina de Equações Diferenciais Ordinárias I durante o ano de 2017. Integrante do Programa de Educação Tutorial (PET-TEC Unifei) durante o período de 2018-2020. Possui interesse em programação e eletrônica."
+        link="http://lattes.cnpq.br/1942206431612582"
+        img={require("../imagens/equipe/leonardomelo.jpg")}
+      />
       <Membro
         nome="Henrique Marcelino Possatto"
         titulo="Graduando em Engenharia de Computação"
