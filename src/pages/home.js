@@ -8,9 +8,19 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 class Home extends React.Component {
-  state = {};
+  state = { };
+
+  importAll(r) {
+    return r.keys().map(r);
+  }
+
+  
+  
   render() {
     const { en } = this.props;
+    const images = this.importAll(
+      require.context('../imagens/carousel', false, /\.(png|jpe?g|svg)$/)
+    );
     if (this.state.redirect !== undefined)
       return <Redirect to={this.state.redirect} />;
     return (
@@ -26,63 +36,16 @@ class Home extends React.Component {
         </div>
 
         <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("../imagens/carrousel/carrousel_1.jpg")}
-              alt="1"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("../imagens/carrousel/carrousel_2.jpg")}
-              alt="2"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("../imagens/carrousel/carrousel_3.jpg")}
-              alt="3"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("../imagens/carrousel/carrousel_4.jpg")}
-              alt="4"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("../imagens/carrousel/carrousel_5.jpg")}
-              alt="5"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("../imagens/carrousel/carrousel_6.jpg")}
-              alt="6"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("../imagens/carrousel/carrousel_7.jpg")}
-              alt="7"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("../imagens/carrousel/carrousel_8.jpg")}
-              alt="8"
-            />
-          </Carousel.Item>
+          {images.map((img,i) => <Carousel.Item>
+            <img 
+            className="d-block w-100"
+            src={img}
+            alt={i+1}
+              />
+          </Carousel.Item>)}
         </Carousel>
+
+  
 
         <Container fluid style={{ marginTop: 20, padding: 20 }}>
           <Row>

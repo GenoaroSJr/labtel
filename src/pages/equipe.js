@@ -209,47 +209,7 @@ const Equipe = ({ en }) => (
         img={require("../imagens/equipe/miguel.jpg")}
       />
 
-      <Membro
-        nome="Denis Varise Bernardes"
-        titulo="Bacharel em Engenharia Física"
-        texto="Graduação em Engenharia Física, pela Escola de Engenharia de
-									Lorena (EEL - USP) no período de Fevereiro de 2012 a Julho
-									2017. Durante este período, foi desenvolvido um projeto de
-									pesquisa da otimização do tempo de cura de materiais abrasivos
-									resinóides. A aquisição de dados foi feita pelo
-									microprocessador Arduino. Monitor das disciplinas Eletrônica e
-									Instrumentação e Introdução à Eletrônica e Computação Física.
-									Membro do Centro Acadêmico de Engenharia Física, no período de
-									Dezembro de 2015 a Julho de 2016. Estágio supervisionado no
-									Laboratório Nacional de Astrofísica no período de Julho de
-									2016 a Julho de 2017, onde desenvolveu-se uma metodologia para
-									caracterização do ruído de leitura, corrente de escuro, ganho
-									eletrônico e eficiência quântica de quatro câmeras CCDs iXon
-									Ultra do instrumento SPARC4. Bolsista PCI no Laboratório
-									Nacional de Astrofísica, no período de Setembro de 2017 a
-									Julho de 2018 com o projeto de desenvolvimento do sistema do
-									controle de aquisição do instrumento SPARC4 na plataforma
-									LabVIEW. Mestrando na Universidade Federal de Itajubá, com
-									início em Julho de 2018 com o projeto da determinação dos
-									modos ótimos de operação do sistema de aquisição do SPARC4
-									através de redes neurais para observação astronômica."
-        link="http://lattes.cnpq.br/9842101872947354"
-        img={require("../imagens/equipe/denisImagem.jpg")}
-      />
-
-      <Membro
-        nome="Adelson Angelo Julião Malichi"
-        titulo="Bacharel em Engenharia Elétrica"
-        texto="Graduado em engenharia elétrica pelo Instituto Nacional de
-									Telecomunicações em 2016, possui experiência em rádio
-									frequência na área de otimização de sites (radio base) das
-									redes móveis de 3ª e 4ª geração pela Huawei-Brasil. Atualmente
-									cursa o mestrado em Engenharia Elétrica com o Projeto de um
-									Sistema de Integração Entre Circuitos Nanofotônicos e Fibras
-									Ópticas de Cristal Fotônico."
-        link="http://lattes.cnpq.br/3322501927530019"
-        img={require("../imagens/equipe/adelsonImagem.jpg")}
-      />
+      
     </div>
 
     <div name="graduando" id="graduando" style={{ marginTop: 30 }}>
@@ -300,6 +260,34 @@ const Equipe = ({ en }) => (
       <Col lg={12}>
         <h2>Membros Antigos</h2>
       </Col>
+
+      <Membro
+        nome="Denis Varise Bernardes"
+        titulo="Bacharel em Engenharia Física"
+        texto="Graduação em Engenharia Física, pela Escola de Engenharia de
+									Lorena (EEL - USP) no período de Fevereiro de 2012 a Julho
+									2017. Durante este período, foi desenvolvido um projeto de
+									pesquisa da otimização do tempo de cura de materiais abrasivos
+									resinóides. A aquisição de dados foi feita pelo
+									microprocessador Arduino. Monitor das disciplinas Eletrônica e
+									Instrumentação e Introdução à Eletrônica e Computação Física.
+									Membro do Centro Acadêmico de Engenharia Física, no período de
+									Dezembro de 2015 a Julho de 2016. Estágio supervisionado no
+									Laboratório Nacional de Astrofísica no período de Julho de
+									2016 a Julho de 2017, onde desenvolveu-se uma metodologia para
+									caracterização do ruído de leitura, corrente de escuro, ganho
+									eletrônico e eficiência quântica de quatro câmeras CCDs iXon
+									Ultra do instrumento SPARC4. Bolsista PCI no Laboratório
+									Nacional de Astrofísica, no período de Setembro de 2017 a
+									Julho de 2018 com o projeto de desenvolvimento do sistema do
+									controle de aquisição do instrumento SPARC4 na plataforma
+									LabVIEW. Mestrando na Universidade Federal de Itajubá, com
+									início em Julho de 2018 com o projeto da determinação dos
+									modos ótimos de operação do sistema de aquisição do SPARC4
+									através de redes neurais para observação astronômica."
+        link="http://lattes.cnpq.br/9842101872947354"
+        img={require("../imagens/equipe/denisImagem.jpg")}
+      />
 
       <Membro
         nome="Andreia Aparecida de Castro Alves"

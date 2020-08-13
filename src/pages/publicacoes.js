@@ -55,6 +55,9 @@ const Publicacoes = ({ en }) => (
             CERQUEIRA S., ARISMAR . Multiband 5G NR system with photonic-assisted
             RF amplification. OPTICS LETTERS, v. 45, p. 1539, 2020.
           </li>
+          <li>
+          Sabi Y.M. Bandiri  Tales C. Pimenta  Fabio R. Durand  Danilo H. Spadoti, Adaptive modulation allocation algorithm in elastic optical networks
+          </li>
         </ul>
       </Card.Body>
     </Card>

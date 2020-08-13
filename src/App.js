@@ -13,13 +13,15 @@ import Eventos from "./pages/eventos";
 
 class App extends React.Component {
   state = {
-    en: false
+    en: false,
+    visited: false
   };
 
 
   //recuperar a linguagem da sessão anterior
-  componentDidMount() {
+  componentWillMount() {
     var opt = localStorage.getItem("en") || false;
+    var visited = localStorage.getItem("visited") || false;
 
     if (opt === "true") {
       document.title = "Research Group - Gepecom";
@@ -27,6 +29,15 @@ class App extends React.Component {
     } else {
       document.title = "Grupo de Pesquisa - Gepecom";
       this.setState({ en: false });
+    }
+
+    console.log("valor de visitado: ")
+    console.log(visited)
+
+    if (visited === "true") {
+      this.setState({ visited: true });
+    } else {
+      this.setState({ visited: false });
     }
   }
 
@@ -44,12 +55,18 @@ class App extends React.Component {
     }
   };
 
+  visited = () => {
+    this.setState({visited: true})
+    localStorage.setItem("visited",true)
+    console.log("Setando visitado")
+  }
+
   render() {
     return (
       <Router>
         <ScrollToTop>
           <div>
-            <Nav func={this.lang} en={this.state.en} />
+            <Nav func={this.lang} en={this.state.en} visited={this.state.visited} setVisited={this.visited}/>
 
             <Route exact path="/" render={() => <Home en={this.state.en} />} />
 
