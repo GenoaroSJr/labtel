@@ -41,7 +41,7 @@ const Publicacoes = ({ en }) => (
       <Card.Body>
         <h4> {en ? "Journals" : "Revistas"} </h4>
         <ul>
-          <li>
+          <li style={{ marginBottom: 15, textAlign: "justify" }}>
             BORGES, RAMON MAIA ; MELO PEREIRA, LUIZ AUGUSTO ; RODRIGUES DIAS
             FILGUEIRAS, HUGO ; CARVALHO FERREIRA, ALEXANDRE ; SEDA BORSATO
             CUNHA, MATHEUS ; RAIMUNDO NETO, EGIDIO ; SPADOTI, DANILO HENRIQUE ;
@@ -49,13 +49,13 @@ const Publicacoes = ({ en }) => (
             Flexible-Waveform and Multi-Application 5G Fiber-Wireless System.
             JOURNAL OF LIGHTWAVE TECHNOLOGY, v. 38, p. 642-653, 2020.
           </li>
-          <li>
+          <li style={{ marginBottom: 15, textAlign: "justify" }}>
             MAIA BORGES, RAMON ; SAIA LIMA, EDUARDO ; FERREIRA, ALEXANDRE C. ;
             HENRIQUE SPADOTI, DANILO ; ABREU, MARCELO ; LEONEL MENDES, LUCIANO ;
             CERQUEIRA S., ARISMAR . Multiband 5G NR system with photonic-assisted
             RF amplification. OPTICS LETTERS, v. 45, p. 1539, 2020.
           </li>
-          <li>
+          <li style={{ marginBottom: 15, textAlign: "justify" }}>
           Sabi Y.M. Bandiri  Tales C. Pimenta  Fabio R. Durand  Danilo H. Spadoti, Adaptive modulation allocation algorithm in elastic optical networks
           </li>
         </ul>
