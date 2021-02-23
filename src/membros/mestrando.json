@@ -1,0 +1,25 @@
+[
+  {
+    "nome": "Marciano de Lima Medeiros",
+    "titulo": "Bacharel em Física",
+    "texto": "Graduou-se em Física pela Universidade Regional do Cariri (URCA), onde atuou, principalmente, em Mecânica Quântica no Espaço de Fases com ênfase no formalismo de Weyl-Wigner-Groenewold-Moyal, e em Física Matemática com ênfase em Cálculo das Variações, envolvendo problemas variacionais da Mecânica Clássica e Teoria Clássica de Campos. Atuou como monitor voluntário em disciplinas de Mecânica, Eletricidade e Magnetismo para Engenharia e foi professor substituto de Matemática na escola de ensino particular Paraíso da Cultura em Crato-CE. Atualmente é aluno de mestrado no Programa de Pós-Graduação em Engenharia Elétrica da UNIFEI, PPG-E, Itajubá, onde atua, principalmente, na área de Óptica e Fotônica, com ênfase em Nanofotônica do Silício e Fibras de Cristal Fotônico.",
+    "link": "http://lattes.cnpq.br/2628692420856172",
+    "img": "/imagens/equipe/marciano.jpg"
+  },
+
+  {
+    "nome": "Tales Henrique Carvalho",
+    "titulo": "Bacharel em Engenharia de Controle e Automação",
+    "texto": "Graduando em Engenharia de Controle e Automação na UNIFEI. Possuo experiência em programação embarcada e em desenvolvimento de aplicações para dispositivos móveis. Atualmente estou realizando meu Trabalho Final de Graduação na área de IoT, com enfoque na programação de dispositivos embarcados que comunicam via protocolo LoRaWAN.",
+    "link": "http://lattes.cnpq.br/0624693729878452",
+    "img": "/imagens/equipe/talesImagem.jpg"
+  },
+
+  {
+    "nome": "Miguel Marques de Paiva Esper",
+    "titulo": "Bacharel em Engenharia de Computação",
+    "texto": "Graduado em engenharia de computação pelo Instituto Nacional de Telecomunicações em 2012. Atuou como analista de desenvolvimento de aplicativos móveis para o sistema Android na DL Eletrônicos.  Ainda na DL, trabalhou como líder do setor de desenvolvimento de aplicações móveis para o sistema Android. Atua como freelancer nas áreas de desenvolvimento de site na plataforma Wordpress, imagens aéreas com drones e serviços de servidores em nuvem com AWS (Amazon Web Services).",
+    "link": "http://lattes.cnpq.br/3251499066712850",
+    "img": "/imagens/equipe/miguel.jpg"
+  }
+]

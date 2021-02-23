@@ -1,0 +1,47 @@
+[
+  {
+    "nome": "Mikaelle de Oliveira Ribeiro",
+    "titulo": "Graduanda em Engenharia Elétrica",
+    "texto": "Graduanda em Engenharia Elétrica pela Universidade Federal de Itajubá (UNIFEI). Atuou como membro de Sistemas Elétricos na equipe de foguetemodelismo Beyond Rocket Desing. Atuou como membro no laboratório de empreendedorismo Maker Space Unifei. Atualmente é membro do Programa de Educação Tutorial (PET) do curso de Engenharia Elétrica e também,  membro do grupo de pesquisas e desenvolvimento em telecomunicações (LabTel - LAIoT) ambos, na Universidade Federal de Itajubá.",
+    "link": "http://lattes.cnpq.br/4741581686574408",
+    "img": "/imagens/equipe/mikaelle.jpeg"
+  },
+
+  {
+    "nome": "Danilo Di Lorenzo Teixeira Clemente",
+    "titulo": "Graduando em Engenharia Elétrica",
+    "texto": "Graduando em Engenharia Elétrica pela Universidade Federal de Itajubá (UNIFEI) e LSS Green Belt. Participou do projeto especial EcoVeículo pela subequipe de Powertrain Elétrico. ",
+    "link": "http://lattes.cnpq.br/3477823581857868",
+    "img": "/imagens/equipe/danilo_lorenzo.jpg"
+  },
+
+  {
+    "nome": "Leonardo Henrique de Melo",
+    "titulo": "Graduando em Engenharia de Computação",
+    "texto": "Graduando em Engenharia de Computação pela Universidade Federal de Itajubá (Unifei). Monitor da disciplina de Equações Diferenciais Ordinárias I durante o ano de 2017. Integrante do Programa de Educação Tutorial (PET-TEC Unifei) durante o período de 2018-2020. Possui interesse em programação e eletrônica.",
+    "link": "http://lattes.cnpq.br/1942206431612582",
+    "img": "/imagens/equipe/leonardomelo.jpg"
+  },
+  {
+    "nome": "Henrique Marcelino Possatto",
+    "titulo": "Graduando em Engenharia de Computação",
+    "texto": "Atualmente graduando em Engenharia de Computação pela Unifei, com previsão de conclusão em 2021, Interesse na área de programação, programação embarcada e eletrônica",
+    "link": "http://lattes.cnpq.br/3952642533153546",
+    "img": "/imagens/equipe/henriquemp.png"
+  },
+  {
+    "nome": "Pedro Dal Bello Carranza",
+    "titulo": "Graduando em Engenharia de Computação",
+    "texto": "Atualmente graduando em Engenharia de Computação pela Universidade Federal de Itajubá, com início em 2017 e previsão de conclusão em 2021. Tem interesse em programação e eletrônica.",
+    "link": "http://lattes.cnpq.br/5766871222042475",
+    "img": "/imagens/equipe/pedrodbc.jpg"
+  },
+
+  {
+    "nome": "Pedro Mendes Parreiras de Faria",
+    "titulo": "Graduando em Engenharia Elétrica",
+    "texto": "Graduando em engenharia elétrica. Trabalhou como projetista na Archote Jr, realizando projetos de usinas fotovoltaicas, e projetos de intertravamento e desenvolvimento de projetos elétricos para protótipos. Foi voluntário no projeto de vistoria das instalações elétricas da Santa Casa da Misericórdia de itajubá. Posteriormente tornou-se gerente de vendas na Archote Jr.",
+    "link": "http://lattes.cnpq.br/3646103838601757",
+    "img": "/imagens/equipe/pedroMendes.jpg"
+  }
+]

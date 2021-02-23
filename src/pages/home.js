@@ -1,31 +1,32 @@
-import React from "react";
-import { Carousel, Container, Row, Col, Card, Button } from "react-bootstrap";
-import { Redirect } from "react-router";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import { Carousel, Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Redirect } from 'react-router';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faGraduationCap,
-  faUniversity
-} from "@fortawesome/free-solid-svg-icons";
+  faUniversity,
+} from '@fortawesome/free-solid-svg-icons';
 
 class Home extends React.Component {
-  state = { };
+  state = {};
 
   importAll(r) {
     return r.keys().map(r);
   }
 
-  
-  
   render() {
     const { en } = this.props;
-    const images = this.importAll(
-      require.context('../imagens/carousel', false, /\.(png|jpe?g|svg)$/)
-    );
-    if (this.state.redirect !== undefined)
+    if (this.state.redirect !== undefined) {
       return <Redirect to={this.state.redirect} />;
+    }
+
+    const images = this.importAll(
+      require.context('../src-imgs/carousel', false, /\.(png|jpe?g|svg)$/)
+    );
+
     return (
-      <Container fluid style={{ padding: 0, width: "90%" }}>
-        <div style={{ textAlign: "center" }}>
+      <Container fluid style={{ padding: 0, width: '90%' }}>
+        <div style={{ textAlign: 'center' }}>
           {en ? (
             <h1>Telecommunications Team</h1>
           ) : (
@@ -36,26 +37,22 @@ class Home extends React.Component {
         </div>
 
         <Carousel>
-          {images.map((img,i) => <Carousel.Item>
-            <img 
-            className="d-block w-100"
-            src={img}
-            alt={i+1}
-              />
-          </Carousel.Item>)}
+          {images.map((img, i) => (
+            <Carousel.Item>
+              <img className='d-block w-100' src={img} alt={i + 1} />
+            </Carousel.Item>
+          ))}
         </Carousel>
-
-  
 
         <Container fluid style={{ marginTop: 20, padding: 20 }}>
           <Row>
             <Col>
               <Card>
-                <Card.Header as="h4">
+                <Card.Header as='h4'>
                   <FontAwesomeIcon icon={faGraduationCap} />
-                  {en ? " Who we are!" : " Quem somos!"}
+                  {en ? ' Who we are!' : ' Quem somos!'}
                 </Card.Header>
-                <Card.Body style={{ padding: "5mm" }}>
+                <Card.Body style={{ padding: '5mm' }}>
                   <Card.Text>
                     {en ? (
                       <>
@@ -78,30 +75,30 @@ class Home extends React.Component {
                     )}
                   </Card.Text>
                   <Button
-                    variant="primary"
+                    variant='primary'
                     onClick={() => {
-                      this.setState({ redirect: "equipe" });
+                      this.setState({ redirect: 'equipe' });
                     }}
                   >
-                    {en ? "Get more info" : "Saiba Mais"}
+                    {en ? 'Get more info' : 'Saiba Mais'}
                   </Button>
                   <div>
                     <img
-                      src={require("../imagens/imagem_RFID.jpg")}
-                      alt="RFID"
+                      src='/imagens/imagem_RFID.jpg'
+                      alt='RFID'
                       style={{
-                        display: "block",
-                        marginLeft: "auto",
-                        marginRight: "auto"
+                        display: 'block',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
                       }}
                     />
                     <img
-                      src={require("../imagens/imagem_osa2.jpg")}
-                      alt="OSA"
+                      src='/imagens/imagem_osa2.jpg'
+                      alt='OSA'
                       style={{
-                        display: "block",
-                        marginLeft: "auto",
-                        marginRight: "auto"
+                        display: 'block',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
                       }}
                     />
                   </div>
@@ -111,11 +108,11 @@ class Home extends React.Component {
 
             <Col>
               <Card>
-                <Card.Header as="h4">
+                <Card.Header as='h4'>
                   <FontAwesomeIcon icon={faUniversity} />
-                  {en ? " What we do!" : " O que fazemos!"}
+                  {en ? ' What we do!' : ' O que fazemos!'}
                 </Card.Header>
-                <Card.Body style={{ padding: "5mm" }}>
+                <Card.Body style={{ padding: '5mm' }}>
                   {en ? (
                     <>
                       <Card.Text>
@@ -128,7 +125,7 @@ class Home extends React.Component {
                         Furthermore, the team's work is directed to the Optical
                         Transformation (OT) research line, which allows to get
                         new structures and devices, such as perfect lenses and
-                        the cloack of invisibility.{" "}
+                        the cloack of invisibility.{' '}
                       </Card.Text>
                       <Card.Text>
                         In the <b>Radio frequency</b> research line, we are
@@ -139,7 +136,7 @@ class Home extends React.Component {
                         GS1 EPCglobal standards
                       </Card.Text>
                       <Card.Text>
-                        Finally, in our third pillar of{" "}
+                        Finally, in our third pillar of{' '}
                         <b>waves and antennas propagation</b>, we develop
                         scientific research studies for the new fifth generation
                         cellphone networks (5G), looking for strong innovation
@@ -190,12 +187,12 @@ class Home extends React.Component {
                     </>
                   )}
                   <Button
-                    variant="primary"
+                    variant='primary'
                     onClick={() => {
-                      this.setState({ redirect: "pesquisa" });
+                      this.setState({ redirect: 'pesquisa' });
                     }}
                   >
-                    {en ? "Get more info" : "Saiba Mais"}
+                    {en ? 'Get more info' : 'Saiba Mais'}
                   </Button>
                 </Card.Body>
               </Card>

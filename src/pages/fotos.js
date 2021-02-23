@@ -6,7 +6,7 @@ class Fotos extends React.Component {
     return r.keys().map(r);
   }
 
-  func = img => (
+  func = (img) => (
     <Image
       src={img}
       style={{ width: '30%', marginBottom: 20, marginRight: 10 }}
@@ -16,7 +16,7 @@ class Fotos extends React.Component {
 
   render() {
     const images = this.importAll(
-      require.context('../imagens/galeria', false, /\.(png|jpe?g|svg)$/)
+      require.context('../src-imgs/galeria', false, /\.(png|jpe?g|svg)$/)
     );
     images.reverse();
     return (

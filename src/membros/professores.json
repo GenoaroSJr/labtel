@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Danilo Henrique Spadoti",
+    "titulo": "Doutor em Engenharia Elétrica",
+    "texto": "Possui graduação em Engenharia Elétrica pela Universidade Federal de Itajubá (2002). Concluiu o mestrado (2004) e o doutorado (2008) em Engenharia Elétrica, área de concentração telecomunicações, pela USP - Universidade de São Paulo. Em 2009, fez o pós-doutoramento no exterior, junto ao Grupo de Nanofotônica da Universidade de Cornell, Ithaca, EUA. Em 2010 foi bolsista Fapesp de pós-doutorado na Universidade Presbiteriana Mackenzie. Em 2012 trabalhou como pesquisador visitante, com bolsa Erasmus Mundus, no centro de pesquisa IMEC, em Leuven, Bélgica. No ano de 2016 recebeu Certificação Profissional RFID - IDentificação por Rádio Frequência. Atualmente é professor Associado I, na área de sistemas de telecomunicações e eletromagnetismo aplicado, na Universidade Federal de Itajubá. Foi diretor adjunto de Relações Internacionais da UNIFEI entre 05/2018 a 08/2019. No período de 09/2019 a 12/2020 atuou como Pró-reitor Adjunto de Pesquisa e Pós-graduação da UNIFEI. Tem experiência na área de engenharia elétrica, com ênfase em telecomunicações, atuando, principalmente, nos seguintes temas: comunicações ópticas, fotônica, fibras ópticas de cristal fotônico e fotônica do silício.",
+    "link": "http://lattes.cnpq.br/8760117075106351",
+    "img": "/imagens/equipe/daniloImagem.jpg"
+  },
+  {
+    "nome": "José Antônio Justino Ribeiro",
+    "titulo": "Doutor em Engenharia Elétrica",
+    "texto": "Possui graduação em Engenharia de Operacao em Telecomunicacoes pelo Instituto Nacional de Telecomunicações(1969), graduação em Engenharia Elétrica pelo Instituto Nacional de Telecomunicações(1973), mestrado em Engenharia Eletrônica pelo Instituto Tecnológico de Aeronáutica(1980), doutorado em Engenharia Eletrônica e Computação pelo Instituto Tecnológico de Aeronáutica(1998), curso-tecnico-profissionalizantepela Escola Técnica de Eletrônica Francisco Moreira da Costa(1966), ensino-fundamental-primeiro-graupelo Ginásio Santo Antônio(1962) e ensino-medio-segundo-graupela Escola Técnica de Eletrônica Francisco Moreira da Costa(1965). Atualmente é professor titular do Instituto Nacional de Telecomunicações, professor titular da Universidade Federal de Itajubá, professor titular da Escola Técnica de Eletrônica Francisco Moreira da Costa, Revisor de periódico da Telecomunicações (Santa Rita do Sapucaí), Revisor de periódico da IEEE Latin America Transaction e Revisor de periódico da Journal of Applied Soft Computing. Tem experiência na área de Engenharia Elétrica, com ênfase em Telecomunicações. Atuando principalmente nos seguintes temas:Microondas, Modulação eletroóptica, Guias ópticos, Processamento de sinais ópticos.",
+    "link": "http://lattes.cnpq.br/9987344139958522",
+    "img": "/imagens/equipe/justinoImagem.jpg"
+  },
+  {
+    "nome": "Edvard Martins de Oliveira",
+    "titulo": "Doutorado em Ciências da Computação e Matemática Computacional",
+    "texto": "Atualmente é professor do magistério superior da Universidade Federal de Itajubá. Doutor em Ciências da Computação e Matemática Computacional pela Universidade de São Paulo. Possui mestrado em Ciências da Computação e Matemática Computacional pela Universidade de São Paulo (2013) e graduação em Ciência da Computação pela Pontifícia Universidade Católica de Minas Gerais (2010). Atua na área de Sistemas Distribuídos, com ênfase em e-Science, Gateways Científicos, Arquiteturas Orientadas a Serviço (SOA), Workflows Científicos e Predição de Estruturas de Proteínas.",
+    "link": "http://lattes.cnpq.br/2922253125747504",
+    "img": "/imagens/equipe/edvard.jpeg"
+  }
+]

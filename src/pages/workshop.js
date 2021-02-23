@@ -31,22 +31,13 @@ class Workshop extends React.Component {
         </Row>
         <Row>
           <Col sm="4" style={{ textAlign: "right" }}>
-            <Image
-              src={require("../imagens/LAIoT/handson.jpg")}
-              style={{ width: "100%" }}
-            />
+            <Image src="/imagens/LAIoT/handson.jpg" style={{ width: "100%" }} />
           </Col>
           <Col sm="4" style={{ textAlign: "center" }}>
-            <Image
-              src={require("../imagens/LAIoT/pint.jpg")}
-              style={{ width: "100%" }}
-            />
+            <Image src="/imagens/LAIoT/pint.jpg" style={{ width: "100%" }} />
           </Col>
           <Col sm="4" style={{ textAlign: "left" }}>
-            <Image
-              src={require("../imagens/LAIoT/sexta.jpg")}
-              style={{ width: "100%" }}
-            />
+            <Image src="/imagens/LAIoT/sexta.jpg" style={{ width: "100%" }} />
           </Col>
         </Row>
 
@@ -64,10 +55,7 @@ class Workshop extends React.Component {
           <Col sm="2">
             <h2>Mapa</h2>
             <Card style={{ marginBottom: 30 }} />
-            <Image
-              src={require("../imagens/LAIoT/mapa.png")}
-              style={{ width: "100%" }}
-            />
+            <Image src="/imagens/LAIoT/mapa.png" style={{ width: "100%" }} />
             <p>
               Para maiores informações um mapa completo pode da Unifei pode ser
               conferido no link{" "}
@@ -84,25 +72,16 @@ class Workshop extends React.Component {
         </Row>
         <Row style={{ textAlign: "center" }}>
           <Col>
-            <Image
-              src={require("../imagens/apoio/logo_onerf.png")}
-              height="150"
-            />
+            <Image src="/imagens/apoio/logo_onerf.png" height="150" />
           </Col>
           <Col>
-            <Image src={require("../imagens/apoio/logo_ie.jpg")} height="150" />
+            <Image src="/imagens/apoio/logo_ie.jpg" height="150" />
           </Col>
           <Col>
-            <Image
-              src={require("../imagens/apoio/logo_inatel.png")}
-              height="150"
-            />
+            <Image src="/imagens/apoio/logo_inatel.png" height="150" />
           </Col>
           <Col>
-            <Image
-              src={require("../imagens/apoio/logo_advantech.png")}
-              height="150"
-            />
+            <Image src="/imagens/apoio/logo_advantech.png" height="150" />
           </Col>
         </Row>
       </Container>

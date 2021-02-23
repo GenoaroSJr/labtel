@@ -14,9 +14,8 @@ import Eventos from "./pages/eventos";
 class App extends React.Component {
   state = {
     en: false,
-    visited: false
+    visited: false,
   };
-
 
   //recuperar a linguagem da sessão anterior
   componentWillMount() {
@@ -31,8 +30,8 @@ class App extends React.Component {
       this.setState({ en: false });
     }
 
-    console.log("valor de visitado: ")
-    console.log(visited)
+    console.log("valor de visitado: ");
+    console.log(visited);
 
     if (visited === "true") {
       this.setState({ visited: true });
@@ -40,7 +39,6 @@ class App extends React.Component {
       this.setState({ visited: false });
     }
   }
-
 
   //função para mudar a linguagem quando a bandeira é clicada
   lang = () => {
@@ -56,17 +54,22 @@ class App extends React.Component {
   };
 
   visited = () => {
-    this.setState({visited: true})
-    localStorage.setItem("visited",true)
-    console.log("Setando visitado")
-  }
+    this.setState({ visited: true });
+    localStorage.setItem("visited", true);
+    console.log("Setando visitado");
+  };
 
   render() {
     return (
       <Router>
         <ScrollToTop>
           <div>
-            <Nav func={this.lang} en={this.state.en} visited={this.state.visited} setVisited={this.visited}/>
+            <Nav
+              func={this.lang}
+              en={this.state.en}
+              visited={this.state.visited}
+              setVisited={this.visited}
+            />
 
             <Route exact path="/" render={() => <Home en={this.state.en} />} />
 
@@ -84,7 +87,10 @@ class App extends React.Component {
             />
             <Route path="/teses" render={() => <Teses en={this.state.en} />} />
             <Route path="/fotos" render={() => <Fotos en={this.state.en} />} />
-            <Route path="/eventos" render={() => <Eventos en={this.state.en} />} />
+            <Route
+              path="/eventos"
+              render={() => <Eventos en={this.state.en} />}
+            />
             <Route
               path="/contato"
               render={() => <Contato en={this.state.en} />}
@@ -92,7 +98,7 @@ class App extends React.Component {
             <footer style={{ marginTop: 20, textAlign: "center" }}>
               <p>
                 <img
-                  src={require("./imagens/imagem_unifeilogo.jpg")}
+                  src="/imagens/imagem_unifeilogo.jpg"
                   style={{ height: "50px", marginRight: 10 }}
                   alt="logo"
                 />

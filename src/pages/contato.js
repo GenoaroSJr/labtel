@@ -1,18 +1,18 @@
-import React from "react";
-import { Container, Row, Col, Card, Image } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelopeOpen } from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+import { Container, Row, Col, Card, Image } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons';
 
 const Contato = ({ en }) => (
   <Container style={{ marginTop: 20, padding: 20 }}>
-    <h1>{en ? "Contact" : "Contato"}</h1>
+    <h1>{en ? 'Contact' : 'Contato'}</h1>
     <Card />
 
-    <Row style={{ padding: "5%" }}>
+    <Row style={{ padding: '5%' }}>
       <Col>
-        <Image fluid src={require("../imagens/imagemUnifeiContato.jpg")} />
+        <Image fluid src={'/imagens/imagemUnifeiContato.jpg'} />
       </Col>
-      {en ? (
+      {!!en && (
         <Col>
           <h3>Contact Details</h3>
           <p>
@@ -24,25 +24,26 @@ const Contato = ({ en }) => (
           </p>
           <p>
             <FontAwesomeIcon icon={faPhone} />
-            <abbr title="Phone"> Phone</abbr>: (+55)(35) 3629-1101
+            <abbr title='Phone'> Phone</abbr>: (+55)(35) 3629-1101
           </p>
           <p>
             <FontAwesomeIcon icon={faEnvelopeOpen} />
-            <abbr title="Email"> Email: </abbr>
-            <a href="mailto:name@example.com"> spadoti@unifei.edu.br</a>
+            <abbr title='Email'> Email: </abbr>
+            <a href='mailto:name@example.com'> spadoti@unifei.edu.br</a>
           </p>
 
           <p>
             <a
-              href="https://goo.gl/maps/gjghdquYRH62"
-              target="_blank"
-              rel="noopener noreferrer"
+              href='https://goo.gl/maps/gjghdquYRH62'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               Google Maps
             </a>
           </p>
         </Col>
-      ) : (
+      )}
+      {!en && (
         <Col>
           <h3>Detalhes do Contato</h3>
           <p>Av. BPS, 1303 - Pinheirinho, Itajubá - MG, 37500-903</p>
@@ -51,19 +52,19 @@ const Contato = ({ en }) => (
           </p>
           <p>
             <FontAwesomeIcon icon={faPhone} />
-            <abbr title="Phone"> Telefone</abbr>: (+55)(35) 3629-1101
+            <abbr title='Phone'> Telefone</abbr>: (+55)(35) 3629-1101
           </p>
           <p>
             <FontAwesomeIcon icon={faEnvelopeOpen} />
-            <abbr title="Email"> Email: </abbr>
-            <a href="mailto:name@example.com">spadoti@unifei.edu.br</a>
+            <abbr title='Email'> Email: </abbr>
+            <a href='mailto:name@example.com'>spadoti@unifei.edu.br</a>
           </p>
 
           <p>
             <a
-              href="https://goo.gl/maps/gjghdquYRH62"
-              target="_blank"
-              rel="noopener noreferrer"
+              href='https://goo.gl/maps/gjghdquYRH62'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               Google Maps
             </a>

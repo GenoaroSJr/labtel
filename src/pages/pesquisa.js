@@ -72,7 +72,7 @@ const Pesquisa = ({ en }) => (
       <Col md={6} style={{ paddingTop: "2%" }}>
         <Image
           fluid
-          src={require("../imagens/imagemOptica3.jpg")}
+          src="/imagens/imagemOptica3.jpg"
           height="75%"
           width="75%"
           alt=""
@@ -81,7 +81,7 @@ const Pesquisa = ({ en }) => (
     </Row>
     <Row>
       <Col md={6}>
-        <Image fluid src={require("../imagens/imagemOptica2.jpg")} alt="" />
+        <Image fluid src="/imagens/imagemOptica2.jpg" alt="" />
       </Col>
 
       <Col md={6} style={{ paddingTop: "2%" }}>
@@ -192,7 +192,7 @@ const Pesquisa = ({ en }) => (
       <Col md={6}>
         <img
           class="img-responsive"
-          src={require("../imagens/imagemSensoriamentoOptico.jpg")}
+          src="/imagens/imagemSensoriamentoOptico.jpg"
           alt=""
         />
       </Col>
@@ -201,7 +201,7 @@ const Pesquisa = ({ en }) => (
       <Col md={6}>
         <img
           class="img-responsive"
-          src={require("../imagens/imagemCompressaoDispersao.jpg")}
+          src="/imagens/imagemCompressaoDispersao.jpg"
           alt=""
         />
       </Col>
@@ -301,12 +301,12 @@ const Pesquisa = ({ en }) => (
       </Col>
 
       <Col md={6} style={{ paddingTop: "2%" }}>
-        <Image fluid src={require("../imagens/imagemAntenaSemfio.jpg")} />
+        <Image fluid src="/imagens/imagemAntenaSemfio.jpg" />
       </Col>
     </Row>
     <Row>
       <Col md={6} style={{ paddingTop: "1%" }}>
-        <Image fluid src={require("../imagens/imagemAntenaBanda2.jpg")} />
+        <Image fluid src="/imagens/imagemAntenaBanda2.jpg" />
       </Col>
 
       <Col md={6} style={{ paddingTop: "4%" }}>
@@ -382,7 +382,7 @@ const Pesquisa = ({ en }) => (
       </Col>
 
       <Col md={6} style={{ paddingTop: "1%" }}>
-        <Image fluid src={require("../imagens/imagemAntenaControlada.jpg")} />
+        <Image fluid src="/imagens/imagemAntenaControlada.jpg" />
       </Col>
     </Row>
     <hr />
@@ -426,7 +426,7 @@ const Pesquisa = ({ en }) => (
       </Col>
 
       <Col md={6} style={{ paddingTop: "1%" }}>
-        <Image fluid src={require("../imagens/imagemRedeTelecom.jpg")} />
+        <Image fluid src="/imagens/imagemRedeTelecom.jpg" />
       </Col>
     </Row>
     <hr />
@@ -469,7 +469,7 @@ const Pesquisa = ({ en }) => (
       <Col md={6}>
         <Image
           fluid
-          src={require("../imagens/imagemTera.jpg")}
+          src="/imagens/imagemTera.jpg"
           style={{ width: "80%", paddingLeft: "20" }}
         />
       </Col>
