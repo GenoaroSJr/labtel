@@ -1,10 +1,36 @@
 {
   "em_andamento": {
-    "teses": [],
-    "dissertacoes": []
+    "teses": [
+      "Afonso José de Faria. Proposta de organização das Redes 5G baseada em Eficiência Energética (Título Provisório). Início: 2018. Tese (Doutorado em Doutorado Engenharia Elétrica) - Universidade Federal de Itajubá. (Orientador).",
+      "ANTONIO ALVES FERREIRA JÚNIOR. PROVISÓRIO: Enlace de rádio-sobre-fibra empregando modulador eletroóptico de fase -. Início: 2018. Tese (Doutorado em Doutorado Engenharia Elétrica) - Universidade Federal de Itajubá. (Orientador).",
+      "MATHEUS SÊDA BORSATO CUNHA. Sistema hibrido óptico-wireless para redes de acesso - título provisório. Início: 2018. Tese (Doutorado em Doutorado Engenharia Elétrica) - Universidade Federal de Itajubá. (Orientador).",
+      "Daniely Gomes Silva. Otimizaçãonumérica aplicada à transformada óptica para obtenção de mapeamentoquase-conforme em mantos de invisibilidade tri-dimensionais. Início: 2015. Tese(Doutorado em Engenharia Elétrica) - Universidade Federal de Itajubá,Coordenação de Aperfeiçoamento de Pessoal de Nível Superior."
+    ],
+    "dissertacoes": [
+      "MIGUEL MARQUES DE PAIVA ESPER. (PROVISÓRIO) - Sistema de medição automática em redes sem fio para Internet das Coisas (IoT). Início: 2020. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Federal de Itajubá, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador).",
+      "TALES HENRIQUE CARVALHO. (PROVISÓRIO) - Reconhecimento de imagem de retinografia utilizando GA. Início: 2019. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Federal de Itajubá, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador).",
+      "Marciano de Lima Medeiros . (PROVISÓRIO) – Acoplamento óptico entre fibras de cristal fotônico e nanoguias de silício.",
+      "Denis Varise Bernardes. Otimização dos modos de operação do sistema de aquisição do instrumento SPARC4. Início: 2018 - Universidade Federal de Itajubá,Coordenação de Aperfeiçoamento de Pessoal de Nível Superior."
+    ]
   },
   "finalizadas": {
-    "teses": [],
-    "dissertacoes": []
+    "teses": [
+      "Gabriel Lobão da Silva Fré. Modulador em guia de ondas de baixa perda para operações na faixa dos THz. Início: 2016. Tese (Doutorado em Engenharia Elétrica) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico.",
+      "Andreia Aparecida de Castro Alves. Projeto e desenvolvimento de um filtro opticamente reconfigurável utilizando grafeno para aplicações em ondas milimétricas. Início: 2015. Tese (Doutorado em Engenharia Elétrica) - Universidade Federal de Itajubá, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.",
+      "Poliane Aires Teixeira. Desenvolvimento de sensores baseados em metamaterias empregando as geometrias fractais. Início: 2015. Tese (Doutorado em Engenharia Elétrica) - Universidade Federal de Itajubá, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.",
+      "Décio Renno. Sistema de Rastreamento e Direcionamento de Sinais para Sistemas 5G e IoT. Início: 2017 . Tese (Doutorado em Engenharia Elétrica) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Danilo Henrique Spadoti.",
+      "Sabi Yari Moïse Bandiri. Desenvolvimento de técnicas de eficiência energética para redes inteligentes e redes ópticas. Início: 2015. Tese (Doutorado em Engenaria Elétrica) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador).",
+      "Renan Alves dos Santos. Sistema irradiante faixa larga e reconfigurável espacialmente. Início: 2016. Tese (Doutorado em Engenharia Elétrica) - Universidade Federal de Itajubá,Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.",
+      "Reinaldo Lima de Abreu. Projeto e Desenvolvimento de Dispositivo para Transmissão de Energia Elétrica Sem Fios por Modos Ressonantes. 2017. Tese (Doutorado em Engenharia Elétrica) - Universidade Federal de Itajubá, Fundação de Amparo à Pesquisa do Estado de Minas Gerais.",
+      "Igor Feliciano da Costa. Arranjos de Antenas em Guia Fendido para Redes Celulares 5G e Radares. 2013. Tese (Doutorado em Doutorado Engenharia Elétrica) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Danilo Henrique Spadoti.",
+      "Mateus Augusto Faustino Chaib Junqueira. Métodos Algébricos para Mapeamento Quase-Conforme na Transformada Óptica. 2012. Tese (Doutorado em Doutorado Engenharia Elétrica) - Universidade Federal de Itajubá, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Danilo Henrique Spadoti."
+    ],
+    "dissertacoes": [
+      "Iúri Barros Werneck Dotta. Sistema de análise e detecção automática de estágios do sono em exames de polissonografia.. 2015. Dissertação (Mestrado em Ciência e Tecnologia da Computação) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Danilo Henrique Spadoti.",
+      "Rafael Motta Coutinho. Estudo de técnicas de integração entre redes de acesso ópticas e redes sem-fio. 2013. Dissertação (Mestrado em Ciência e Tecnologia da Computação) - Universidade Federal de Itajubá, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Danilo Henrique Spadoti.",
+      "Reinaldo Lima de Abreu. Projeto e Desenvolvimento de Dispositivo para Transmissão de Energia Elétrica Sem Fios por Modos Ressonantes. 2011. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Federal de Itajubá, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Coorientador: Danilo Henrique Spadoti.",
+      "Daniel Matumona Mulato. Aplicabilidade da equação de Helmholtz em meios não-homogêneos obtidos do uso de mapeamentos quase-conformes. Início: 2016. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Federal de Itajubá, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.",
+      "Rafael de Souza Martins Braga. Algorítimo de roteamento em redes de fibra óptica utilizando técnica de modulação adaptativa Início: 2015. Dissertação (Mestrado em Ciência e Tecnologia da Computação) - Universidade Federal de Itajubá, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior."
+    ]
   }
 }
