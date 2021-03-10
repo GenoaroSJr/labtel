@@ -1,61 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Card, Image, Button } from 'react-bootstrap';
 
-class Eventos extends React.Component {
-  state = {
-    mais: false,
+const Eventos = ({ en }) => {
+  const [mais, setMais] = useState(false);
+  const func = (img) => {
+    if (typeof img !== 'number') {
+      return null;
+    }
+    return (
+      <Image
+        src={`/imagens/workshop/${img.toString().padStart(4, '0')}.jpg`}
+        style={{ width: '30%', marginBottom: 20, marginRight: 10 }}
+        key={img}
+      />
+    );
   };
 
-  importAll(r) {
-    return r.keys().map(r);
+  let imgs = Array.from({ length: 18 }, (_, i) => i + 1);
+
+  if (!mais) {
+    imgs = imgs.slice(0, 3);
   }
 
-  func = (img) => (
-    <Image
-      src={img}
-      style={{ width: '30%', marginBottom: 20, marginRight: 10 }}
-      key={img}
-    />
+  return (
+    <Container fluid style={{ marginTop: 20, padding: 20 }}>
+      <h1>{en ? 'Events' : 'Eventos'}</h1>
+      <Card style={{ marginBottom: 30 }} />
+      <h2>Workshop</h2>
+      <hr />
+      <Card>
+        <Card.Header>{en ? 'Photos' : 'Fotos'}</Card.Header>
+        <Card.Body style={{ padding: 5 }}>
+          <div style={{ textAlign: 'center' }}>{imgs.map(func)}</div>
+        </Card.Body>
+        <Card.Footer style={{ textAlign: 'right' }}>
+          <Button
+            onClick={() => {
+              setMais(!mais);
+            }}
+          >
+            {en
+              ? 'Show ' + (mais ? 'less' : 'more')
+              : 'Mostrar ' + (mais ? 'menos' : 'mais')}
+          </Button>
+        </Card.Footer>
+      </Card>
+    </Container>
   );
-
-  render() {
-    const { en } = this.props;
-    const workshop = this.importAll(
-      require.context('../src-imgs/workshop', false, /\.(png|jpe?g|svg)$/)
-    );
-    let imgs;
-    if (this.state.mais) {
-      imgs = workshop;
-    } else {
-      imgs = workshop.slice(0, 3);
-    }
-
-    return (
-      <Container fluid style={{ marginTop: 20, padding: 20 }}>
-        <h1>{this.props.en ? 'Events' : 'Eventos'}</h1>
-        <Card style={{ marginBottom: 30 }} />
-        <h2>Workshop</h2>
-        <hr />
-        <Card>
-          <Card.Header>{en ? 'Photos' : 'Fotos'}</Card.Header>
-          <Card.Body style={{ padding: 5 }}>
-            <div style={{ textAlign: 'center' }}>{imgs.map(this.func)}</div>
-          </Card.Body>
-          <Card.Footer style={{ textAlign: 'right' }}>
-            <Button
-              onClick={() => {
-                this.setState({ mais: !this.state.mais });
-              }}
-            >
-              {en
-                ? 'Show ' + (this.state.mais ? 'less' : 'more')
-                : 'Mostrar ' + (this.state.mais ? 'menos' : 'mais')}
-            </Button>
-          </Card.Footer>
-        </Card>
-      </Container>
-    );
-  }
-}
+};
 
 export default Eventos;
